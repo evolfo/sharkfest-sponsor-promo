@@ -2,6 +2,8 @@
 import { jsx } from 'theme-ui'
 import Countdown from 'react-countdown'
 
+import sflogo from './sflogo.png'
+
 const Header = () => {
   return (
     <header
@@ -23,11 +25,7 @@ const Header = () => {
         }}
       >
         <a href="" title="Home">
-          <img
-            alt="UI Logo"
-            src="../../public/sflogo.png"
-            sx={{ maxWidth: '100px' }}
-          />
+          <img alt="UI Logo" src={sflogo} sx={{ maxWidth: '100px' }} />
           <span
             sx={{
               position: 'absolute',

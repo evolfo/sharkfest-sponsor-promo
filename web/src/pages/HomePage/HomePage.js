@@ -2,8 +2,7 @@
 import { jsx } from 'theme-ui'
 import { Grid, Image, Container, Card } from 'semantic-ui-react'
 
-import placeholder from '../../../public/sponsor-banner.jpg'
-
+import placeholder from './sponsor-banner.jpg'
 import HomeModal from './HomeModal'
 
 class HomePage extends React.Component {
