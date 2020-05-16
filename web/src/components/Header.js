@@ -24,7 +24,7 @@ const Header = () => {
           paddingTop: 'headerLogoTopPadding',
         }}
       >
-        <a href="" title="Home">
+        <a href="#" title="Home">
           <img alt="UI Logo" src={sflogo} sx={{ maxWidth: '100px' }} />
           <span
             sx={{
