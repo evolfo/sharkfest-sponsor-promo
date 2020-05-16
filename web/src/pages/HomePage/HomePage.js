@@ -2,7 +2,6 @@
 import { jsx } from 'theme-ui'
 import { Grid, Image, Container, Card } from 'semantic-ui-react'
 
-import placeholder from './sponsor-banner.jpg'
 import HomeModal from './HomeModal'
 
 class HomePage extends React.Component {
@@ -24,7 +23,7 @@ class HomePage extends React.Component {
               <Grid.Row columns={3}>
                 <Grid.Column>
                   <Card>
-                    <Image src={placeholder} wrapped ui={false} />
+                    <Image src="/sponsor-banner.jpg" wrapped ui={false} />
                     <Card.Content>
                       <Card.Header>Matthew</Card.Header>
                       <Card.Meta>
@@ -38,7 +37,7 @@ class HomePage extends React.Component {
                 </Grid.Column>
                 <Grid.Column>
                   <Card>
-                    <Image src={placeholder} wrapped ui={false} />
+                    <Image src="/sponsor-banner.jpg" wrapped ui={false} />
                     <Card.Content>
                       <Card.Header>Matthew</Card.Header>
                       <Card.Meta>
@@ -52,7 +51,7 @@ class HomePage extends React.Component {
                 </Grid.Column>
                 <Grid.Column>
                   <Card>
-                    <Image src={placeholder} wrapped ui={false} />
+                    <Image src="/sponsor-banner.jpg" wrapped ui={false} />
                     <Card.Content>
                       <Card.Header>Matthew</Card.Header>
                       <Card.Meta>
@@ -68,7 +67,7 @@ class HomePage extends React.Component {
               <Grid.Row columns={4}>
                 <Grid.Column>
                   <Card>
-                    <Image src={placeholder} wrapped ui={false} />
+                    <Image src="/sponsor-banner.jpg" wrapped ui={false} />
                     <Card.Content>
                       <Card.Header>Matthew</Card.Header>
                       <Card.Meta>
@@ -82,7 +81,7 @@ class HomePage extends React.Component {
                 </Grid.Column>
                 <Grid.Column>
                   <Card>
-                    <Image src={placeholder} wrapped ui={false} />
+                    <Image src="/sponsor-banner.jpg" wrapped ui={false} />
                     <Card.Content>
                       <Card.Header>Matthew</Card.Header>
                       <Card.Meta>
@@ -96,7 +95,7 @@ class HomePage extends React.Component {
                 </Grid.Column>
                 <Grid.Column>
                   <Card>
-                    <Image src={placeholder} wrapped ui={false} />
+                    <Image src="/sponsor-banner.jpg" wrapped ui={false} />
                     <Card.Content>
                       <Card.Header>Matthew</Card.Header>
                       <Card.Meta>
@@ -110,7 +109,7 @@ class HomePage extends React.Component {
                 </Grid.Column>
                 <Grid.Column>
                   <Card>
-                    <Image src={placeholder} wrapped ui={false} />
+                    <Image src="/sponsor-banner.jpg" wrapped ui={false} />
                     <Card.Content>
                       <Card.Header>Matthew</Card.Header>
                       <Card.Meta>
