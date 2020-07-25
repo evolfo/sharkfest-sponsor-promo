@@ -1,5 +1,14 @@
-import { Form as RedwoodForm, Label, TextField, Submit } from '@redwoodjs/web'
+import {
+  Form,
+  Label,
+  TextField,
+  Submit,
+  FieldError,
+  FormError,
+} from '@redwoodjs/web'
 import { useMutation } from '@redwoodjs/web'
+import { useState } from 'react'
+import { useForm } from 'react-hook-form'
 
 const CREATE_USER_MUTATION = gql`
   mutation CreateUserMutation($input: CreateUserInput!) {
@@ -10,37 +19,61 @@ const CREATE_USER_MUTATION = gql`
 `
 
 const HomeModalForm = (props) => {
-  const [createUser] = useMutation(CREATE_USER_MUTATION, {
-    onCompleted: (done) => {
-      document.querySelector('.modals').className =
-        'ui page modals dimmer transition'
+  const formMethods = useForm()
+
+  const [createUser, { loading, error }] = useMutation(CREATE_USER_MUTATION, {
+    onCompleted: (data) => {
+      if (!error) {
+        formMethods.reset()
+        props.handleModalClose()
+      }
     },
   })
 
   const onSubmit = (input) => {
     createUser({ variables: { input } })
+    console.log(input)
   }
 
   return (
-    <RedwoodForm onSubmit={onSubmit}>
-      <Label>Full Name</Label>
+    <Form
+      onSubmit={onSubmit}
+      validation={{ mode: 'onBlur' }}
+      error={error}
+      formMethods={formMethods}
+    >
+      <FormError
+        error={error}
+        wrapperStyle={{ color: 'red', backgroundColor: 'lavenderblush' }}
+      />
+      <Label errorClassName="error" name="name">
+        Full Name
+      </Label>
       <TextField
         name="name"
         value={props.name}
         onChange={props.handleTextInput}
         placeholder="Full Name"
+        errorClassName="error"
         validation={{ required: true }}
       />
-      <Label>Email</Label>
+      <FieldError name="name" className="error" />
+      <Label errorClassName="error" name="email">
+        Email
+      </Label>
       <TextField
         name="email"
         value={props.email}
         onChange={props.handleTextInput}
         placeholder="Email"
-        validation={{ required: true, pattern: { value: /[^@]+@[^.]+\..+/ } }}
+        errorClassName="error"
+        validation={{
+          required: true,
+        }}
       />
-      <Submit>Submit</Submit>
-    </RedwoodForm>
+      <FieldError name="email" className="error" />
+      <Submit disabled={loading}>Submit</Submit>
+    </Form>
   )
 }
 

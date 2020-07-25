@@ -6,3 +6,39 @@
   display: none;
   margin-top: -2rem;
 }
+
+button, input, label, textarea {
+  display: block;
+  outline: none;
+}
+
+label {
+  margin-top: 1rem;
+}
+
+.error {
+  color: red;
+}
+
+input.error, textarea.error {
+  border: 1px solid red;
+}
+
+.same-height-column {
+  display: flex !important;
+}
+
+.column > .ui.card {
+  width: 100%;
+  flex: 1; /* Shrink and grow according to available height */
+  flex-basis: 0;
+}
+
+.ui.card:hover {
+  transform: scale(1.05);
+}
+
+.a-sorting {
+  width: 100%;
+  display: contents;
+}

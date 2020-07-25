@@ -27,7 +27,7 @@ const timeTag = (datetime) => {
   )
 }
 
-const UsersList = ({ users }) => {
+const UsersList = ({ users, sortByEmail, sortByName, sortById }) => {
   const [deleteUser] = useMutation(DELETE_USER_MUTATION)
 
   const onDeleteClick = (id) => {
@@ -41,10 +41,24 @@ const UsersList = ({ users }) => {
       <table className="table-auto w-full min-w-3xl text-sm">
         <thead>
           <tr className="bg-gray-300 text-gray-700">
-            <th className="font-semibold text-left p-3">id</th>
-            <th className="font-semibold text-left p-3">email</th>
-            <th className="font-semibold text-left p-3">name</th>
-            <th className="font-semibold text-left p-3">&nbsp;</th>
+            <a className="a-sorting" href="#">
+              <th onClick={sortById} className="font-semibold text-left p-3">
+                id
+              </th>
+            </a>
+            <a className="a-sorting" href="#">
+              <th onClick={sortByEmail} className="font-semibold text-left p-3">
+                email
+              </th>
+            </a>
+            <a className="a-sorting" href="#">
+              <th onClick={sortByName} className="font-semibold text-left p-3">
+                name
+              </th>
+            </a>
+            <a href="#">
+              <th className="font-semibold text-left p-3">&nbsp;</th>
+            </a>
           </tr>
         </thead>
         <tbody>

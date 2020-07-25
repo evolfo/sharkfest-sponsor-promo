@@ -20,8 +20,8 @@ class HomePage extends React.Component {
         >
           <Container className="grid-container">
             <Grid>
-              <Grid.Row columns={3}>
-                <Grid.Column>
+              <Grid.Row columns={2}>
+                <Grid.Column className="same-height-column">
                   <Card>
                     <Image src="/sponsor-banner.jpg" wrapped ui={false} />
                     <Card.Content>
@@ -30,26 +30,15 @@ class HomePage extends React.Component {
                         <span className="date">Joined in 2015</span>
                       </Card.Meta>
                       <Card.Description>
-                        Matthew is a musician living in Nashville.
+                        Matthew is a musician living in Nashville. Matthew is a
+                        musician living in Nashville. Matthew is a musician
+                        living in Nashville. Matthew is a musician living in
+                        Nashville.
                       </Card.Description>
                     </Card.Content>
                   </Card>
                 </Grid.Column>
-                <Grid.Column>
-                  <Card>
-                    <Image src="/sponsor-banner.jpg" wrapped ui={false} />
-                    <Card.Content>
-                      <Card.Header>Matthew</Card.Header>
-                      <Card.Meta>
-                        <span className="date">Joined in 2015</span>
-                      </Card.Meta>
-                      <Card.Description>
-                        Matthew is a musician living in Nashville.
-                      </Card.Description>
-                    </Card.Content>
-                  </Card>
-                </Grid.Column>
-                <Grid.Column>
+                <Grid.Column className="same-height-column">
                   <Card>
                     <Image src="/sponsor-banner.jpg" wrapped ui={false} />
                     <Card.Content>
@@ -64,8 +53,8 @@ class HomePage extends React.Component {
                   </Card>
                 </Grid.Column>
               </Grid.Row>
-              <Grid.Row columns={4}>
-                <Grid.Column>
+              <Grid.Row columns={3}>
+                <Grid.Column className="same-height-column">
                   <Card>
                     <Image src="/sponsor-banner.jpg" wrapped ui={false} />
                     <Card.Content>
@@ -79,7 +68,7 @@ class HomePage extends React.Component {
                     </Card.Content>
                   </Card>
                 </Grid.Column>
-                <Grid.Column>
+                <Grid.Column className="same-height-column">
                   <Card>
                     <Image src="/sponsor-banner.jpg" wrapped ui={false} />
                     <Card.Content>
@@ -93,21 +82,7 @@ class HomePage extends React.Component {
                     </Card.Content>
                   </Card>
                 </Grid.Column>
-                <Grid.Column>
-                  <Card>
-                    <Image src="/sponsor-banner.jpg" wrapped ui={false} />
-                    <Card.Content>
-                      <Card.Header>Matthew</Card.Header>
-                      <Card.Meta>
-                        <span className="date">Joined in 2015</span>
-                      </Card.Meta>
-                      <Card.Description>
-                        Matthew is a musician living in Nashville.
-                      </Card.Description>
-                    </Card.Content>
-                  </Card>
-                </Grid.Column>
-                <Grid.Column>
+                <Grid.Column className="same-height-column">
                   <Card>
                     <Image src="/sponsor-banner.jpg" wrapped ui={false} />
                     <Card.Content>

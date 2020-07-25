@@ -1,4 +1,14 @@
+import { UserInputError } from '@redwoodjs/api'
+
 import { db } from 'src/lib/db'
+
+const validate = (input) => {
+  if (input.email && !input.email.match(/[^@]+@[^.]+\..+/)) {
+    throw new UserInputError("Can't submit", {
+      messages: { email: ['is not formatted like an email address'] },
+    })
+  }
+}
 
 export const users = () => {
   return db.user.findMany()
@@ -11,6 +21,7 @@ export const user = ({ id }) => {
 }
 
 export const createUser = ({ input }) => {
+  validate(input)
   return db.user.create({
     data: input,
   })
