@@ -7,10 +7,11 @@ import sflogo from './sflogo.png'
 const Header = () => {
   return (
     <header
+      className="main-header"
       sx={{
         py: 4,
         backgroundImage:
-          'linear-gradient(to bottom, rgb(0, 36, 72), rgb(1, 56, 111))',
+          'linear-gradient(to bottom,rgb(0,36,72),rgb(9, 89, 169))',
         variant: 'styles.header',
         fontFamily: 'body',
         color: 'background',
@@ -61,14 +62,20 @@ const Header = () => {
         >
           October 12 - 16
         </h3>
-        <h3
-          sx={{
-            padding: 'headerPadding',
-            marginTop: 'headerBottomMarginFix',
-          }}
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://sharkfestvirtual.wireshark.org"
         >
-          Event Website
-        </h3>
+          <h3
+            sx={{
+              padding: 'headerPadding',
+              marginTop: 'headerBottomMarginFix',
+            }}
+          >
+            Event Website
+          </h3>
+        </a>
         <h3
           sx={{
             padding: 'headerPadding',

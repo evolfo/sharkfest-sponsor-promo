@@ -12,10 +12,10 @@ class HomeModal extends React.Component {
   }
 
   componentDidMount() {
-    // this.setState({
-    //   modalOpen: false,
-    // })
-    // document.querySelector('button').click()
+    this.setState({
+      modalOpen: false,
+    })
+    document.querySelector('button').click()
   }
 
   handleTextInput = (e) => {
@@ -24,7 +24,7 @@ class HomeModal extends React.Component {
     })
   }
 
-  handleModalClose = (e) => {
+  handleModalClose = () => {
     this.setState({
       modalOpen: false,
     })

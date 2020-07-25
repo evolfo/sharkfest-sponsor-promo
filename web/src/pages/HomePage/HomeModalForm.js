@@ -46,32 +46,34 @@ const HomeModalForm = (props) => {
         error={error}
         wrapperStyle={{ color: 'red', backgroundColor: 'lavenderblush' }}
       />
-      <Label errorClassName="error" name="name">
-        Full Name
-      </Label>
-      <TextField
-        name="name"
-        value={props.name}
-        onChange={props.handleTextInput}
-        placeholder="Full Name"
-        errorClassName="error"
-        validation={{ required: true }}
-      />
-      <FieldError name="name" className="error" />
-      <Label errorClassName="error" name="email">
-        Email
-      </Label>
-      <TextField
-        name="email"
-        value={props.email}
-        onChange={props.handleTextInput}
-        placeholder="Email"
-        errorClassName="error"
-        validation={{
-          required: true,
-        }}
-      />
-      <FieldError name="email" className="error" />
+      <div className="modal-input-wrapper">
+        <Label errorClassName="error" name="name">
+          Full Name
+        </Label>
+        <TextField
+          name="name"
+          value={props.name}
+          onChange={props.handleTextInput}
+          placeholder="Full Name"
+          errorClassName="error"
+          validation={{ required: true }}
+        />
+        <FieldError name="name" className="error" />
+        <Label errorClassName="error" name="email">
+          Email
+        </Label>
+        <TextField
+          name="email"
+          value={props.email}
+          onChange={props.handleTextInput}
+          placeholder="Email"
+          errorClassName="error"
+          validation={{
+            required: true,
+          }}
+        />
+        <FieldError name="email" className="error" />
+      </div>
       <Submit disabled={loading}>Submit</Submit>
     </Form>
   )
