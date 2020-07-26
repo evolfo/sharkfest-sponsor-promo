@@ -92,11 +92,7 @@ input:valid {
 }
 
 /*======================*/
-/*== END FORM STYLING ==*/
-/*======================*/
-
-/*======================*/
-/*==== HEADER STYLING ====*/
+/*=== HEADER STYLING ===*/
 /*======================*/
 
 .main-header > div > a > h3 {
@@ -106,4 +102,32 @@ input:valid {
 
 .main-header > div > a > h3:hover {
   color: #9ac5f0;
+}
+
+/*======================*/
+/*=== FOOTER STYLING ===*/
+/*======================*/
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  padding-top: 15px;
+  margin-bottom: 0;
+  list-style-type: none;
+}
+
+footer img {
+  max-width: 50px;
+}
+
+.footer-text {
+  padding-top: 0 !important;
+  padding-bottom: 1rem !important;
+}
+
+.footer-text a {
+  color: white;
+  padding: .5rem;
+  font-size: 1rem;
 }

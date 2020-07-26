@@ -1,13 +1,18 @@
-import { Modal, Header } from 'semantic-ui-react'
+import { Modal, Header, Image } from 'semantic-ui-react'
 
-const SponsorModal = () => {
+const SponsorModal = (props) => {
   return (
     <>
-      <Modal>
-        <Modal.Header>Welcome</Modal.Header>
+      <Modal
+        onClose={props.handleSponsorModalClose}
+        open={props.sponsorModalIsOpen}
+      >
+        <Image alt="sponsor-banner" src={props.selectedSponsorData.img_url} />
+        <Modal.Header>{props.selectedSponsorData.title}</Modal.Header>
         <Modal.Content>
           <Modal.Description>
-            <Header>Please enter your info</Header>
+            <Header>{props.selectedSponsorData.subtitle}</Header>
+            {props.selectedSponsorData.modal_description}
           </Modal.Description>
         </Modal.Content>
       </Modal>

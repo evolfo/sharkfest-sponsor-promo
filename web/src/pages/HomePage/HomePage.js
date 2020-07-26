@@ -20,22 +20,24 @@ class HomePage extends React.Component {
       })
   }
 
-  handleModalClick = (e) => {
-    // TODO: Get this to work
-    // this means get the e.target.id to populate correctly
-    // so that a different modal can be opened for each sponsor
-    // dynamically
-    const selectedSponsor = this.state.sponsorData.find((sponsor) => {
-      return sponsor.id === parseInt(e.target.id)
-    })
+  handleSponsorModalClick = (e) => {
+    let correctElement = e.target
+    while (!correctElement.id) {
+      correctElement = correctElement.parentNode
+    }
 
-    console.log(e.target)
-    // console.log(sponsor.id)
+    const selectedSponsor = this.state.sponsorData.find((sponsor) => {
+      return sponsor.id === parseInt(correctElement.id)
+    })
 
     this.setState({
       sponsorModalIsOpen: true,
       selectedSponsorData: selectedSponsor,
     })
+  }
+
+  handleSponsorModalClose = () => {
+    this.setState({ sponsorModalIsOpen: false })
   }
 
   render() {
@@ -46,10 +48,15 @@ class HomePage extends React.Component {
             id={sponsor.id}
             key={sponsor.id}
             className="same-height-column"
-            onClick={this.handleModalClick}
+            onClick={this.handleSponsorModalClick}
           >
             <Card>
-              <Image src={sponsor.img_url} wrapped ui={false} />
+              <Image
+                alt="sponsor-banner"
+                src={sponsor.img_url}
+                wrapped
+                ui={false}
+              />
               <Card.Content>
                 <Card.Header>{sponsor.title}</Card.Header>
                 <Card.Meta>
@@ -70,10 +77,15 @@ class HomePage extends React.Component {
             id={sponsor.id}
             key={sponsor.id}
             className="same-height-column"
-            onClick={this.handleModalClick}
+            onClick={this.handleSponsorModalClick}
           >
             <Card>
-              <Image src={sponsor.img_url} wrapped ui={false} />
+              <Image
+                alt="sponsor-banner"
+                src={sponsor.img_url}
+                wrapped
+                ui={false}
+              />
               <Card.Content>
                 <Card.Header>{sponsor.title}</Card.Header>
                 <Card.Meta>
@@ -90,14 +102,19 @@ class HomePage extends React.Component {
     return (
       <>
         <HomeModal />
-        <SponsorModal />
+        <SponsorModal
+          sponsorModalIsOpen={this.state.sponsorModalIsOpen}
+          selectedSponsorData={this.state.selectedSponsorData}
+          handleSponsorModalClose={this.handleSponsorModalClose}
+        />
         <div
           sx={{
             fontWeight: 'bold',
+            pb: '5rem',
           }}
         >
           <Container className="grid-container">
-            <Grid>
+            <Grid stackable>
               <Grid.Row columns={2}>{renderSponsorDataBig}</Grid.Row>
               <Grid.Row columns={3}>{renderSponsorDataSmall}</Grid.Row>
             </Grid>
