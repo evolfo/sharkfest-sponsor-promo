@@ -7,7 +7,6 @@ import {
   FormError,
 } from '@redwoodjs/web'
 import { useMutation } from '@redwoodjs/web'
-import { useState } from 'react'
 import { useForm } from 'react-hook-form'
 
 const CREATE_USER_MUTATION = gql`
