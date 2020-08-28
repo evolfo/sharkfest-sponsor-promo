@@ -24,7 +24,7 @@ class HomeModal extends React.Component {
     })
   }
 
-  handleModalClose = (e) => {
+  handleModalClose = () => {
     this.setState({
       modalOpen: false,
     })

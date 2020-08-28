@@ -3,6 +3,7 @@ import { jsx } from 'theme-ui'
 
 import Routes from 'src/Routes'
 import Header from 'src/components/Header'
+import Footer from 'src/components/Footer'
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       >
         <Header />
         <Routes />
+        <Footer />
       </div>
     </>
   )

@@ -2,7 +2,7 @@ export default {
   initialColorMode: 'light',
   useCustomProperties: false,
   fonts: {
-    body: 'Open Sans',
+    body: 'Helvetica',
     heading: 'Muli',
   },
   fontWeights: {
@@ -44,5 +44,5 @@ export default {
       },
     },
   },
-  breakpoints: ['40em', '56em', '64em'],
+  breakpoints: ['42em', '56em', '64em'],
 }
