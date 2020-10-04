@@ -15,8 +15,17 @@ async function main() {
   //   if (!existing.length) {
   //     await db.user.create({ data: { name: 'Admin', email: 'admin@email.com' }})
   //   }
+  await db.sponsor.create({
+    data: {
+      name: 'Gigamon',
+    },
+  })
 
-  console.info('No data to seed. See api/prisma/seeds.js for info.')
+  await db.sponsor.create({
+    data: {
+      name: 'fmadio',
+    },
+  })
 }
 
 main()

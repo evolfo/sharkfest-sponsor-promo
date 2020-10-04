@@ -1,9 +1,9 @@
 import { useMutation } from '@redwoodjs/web'
 import { Link, routes } from '@redwoodjs/router'
 
-const DELETE_USER_MUTATION = gql`
-  mutation DeleteUserMutation($id: Int!) {
-    deleteUser(id: $id) {
+const DELETE_SPONSOR_MUTATION = gql`
+  mutation DeleteSponsorMutation($id: Int!) {
+    deleteSponsor(id: $id) {
       id
     }
   }
@@ -13,7 +13,7 @@ const MAX_STRING_LENGTH = 150
 
 const truncate = (text) => {
   let output = text
-  if (text?.length > MAX_STRING_LENGTH) {
+  if (text.length > MAX_STRING_LENGTH) {
     output = output.substring(0, MAX_STRING_LENGTH) + '...'
   }
   return output
@@ -27,12 +27,12 @@ const timeTag = (datetime) => {
   )
 }
 
-const UsersList = ({ users, sortByEmail, sortByName, sortById, sortBySponsor }) => {
-  const [deleteUser] = useMutation(DELETE_USER_MUTATION)
+const SponsorsList = ({ sponsors }) => {
+  const [deleteSponsor] = useMutation(DELETE_SPONSOR_MUTATION)
 
   const onDeleteClick = (id) => {
-    if (confirm('Are you sure you want to delete user ' + id + '?')) {
-      deleteUser({ variables: { id }, refetchQueries: ['POSTS'] })
+    if (confirm('Are you sure you want to delete sponsor ' + id + '?')) {
+      deleteSponsor({ variables: { id }, refetchQueries: ['POSTS'] })
     }
   }
 
@@ -41,51 +41,26 @@ const UsersList = ({ users, sortByEmail, sortByName, sortById, sortBySponsor }) 
       <table className="table-auto w-full min-w-3xl text-sm">
         <thead>
           <tr className="bg-gray-300 text-gray-700">
-            <a className="a-sorting" href="#">
-              <th onClick={sortById} className="font-semibold text-left p-3">
-                id
-              </th>
-            </a>
-            <a className="a-sorting" href="#">
-              <th onClick={sortByEmail} className="font-semibold text-left p-3">
-                email
-              </th>
-            </a>
-            <a className="a-sorting" href="#">
-              <th onClick={sortByName} className="font-semibold text-left p-3">
-                name
-              </th>
-            </a>
-            <a className="a-sorting" href="#">
-              <th
-                onClick={sortBySponsor}
-                className="font-semibold text-left p-3"
-              >
-                sponsor
-              </th>
-            </a>
-            <a href="#">
-              <th className="font-semibold text-left p-3">&nbsp;</th>
-            </a>
+            <th className="font-semibold text-left p-3">id</th>
+            <th className="font-semibold text-left p-3">name</th>
+            <th className="font-semibold text-left p-3">&nbsp;</th>
           </tr>
         </thead>
         <tbody>
-          {users.map((user) => (
+          {sponsors.map((sponsor) => (
             <tr
-              key={user.id}
+              key={sponsor.id}
               className="odd:bg-gray-100 even:bg-white border-t"
             >
-              <td className="p-3">{truncate(user.id)}</td>
-              <td className="p-3">{truncate(user.email)}</td>
-              <td className="p-3">{truncate(user.name)}</td>
-              <td className="p-3">{truncate(user?.sponsor)}</td>
+              <td className="p-3">{truncate(sponsor.id)}</td>
+              <td className="p-3">{truncate(sponsor.name)}</td>
               <td className="p-3 pr-4 text-right whitespace-no-wrap">
                 <nav>
                   <ul>
                     <li className="inline-block">
                       <Link
-                        to={routes.user({ id: user.id })}
-                        title={'Show user ' + user.id + ' detail'}
+                        to={routes.sponsor({ id: sponsor.id })}
+                        title={'Show sponsor ' + sponsor.id + ' detail'}
                         className="text-xs bg-gray-100 text-gray-600 hover:bg-gray-600 hover:text-white rounded-sm px-2 py-1 uppercase font-semibold tracking-wide"
                       >
                         Show
@@ -93,8 +68,8 @@ const UsersList = ({ users, sortByEmail, sortByName, sortById, sortBySponsor }) 
                     </li>
                     <li className="inline-block">
                       <Link
-                        to={routes.editUser({ id: user.id })}
-                        title={'Edit user ' + user.id}
+                        to={routes.editSponsor({ id: sponsor.id })}
+                        title={'Edit sponsor ' + sponsor.id}
                         className="text-xs bg-gray-100 text-blue-600 hover:bg-blue-600 hover:text-white rounded-sm px-2 py-1 uppercase font-semibold tracking-wide"
                       >
                         Edit
@@ -103,9 +78,9 @@ const UsersList = ({ users, sortByEmail, sortByName, sortById, sortBySponsor }) 
                     <li className="inline-block">
                       <a
                         href="#"
-                        title={'Delete user ' + user.id}
+                        title={'Delete sponsor ' + sponsor.id}
                         className="text-xs bg-gray-100 text-red-600 hover:bg-red-600 hover:text-white rounded-sm px-2 py-1 uppercase font-semibold tracking-wide"
-                        onClick={() => onDeleteClick(user.id)}
+                        onClick={() => onDeleteClick(sponsor.id)}
                       >
                         Delete
                       </a>
@@ -121,4 +96,4 @@ const UsersList = ({ users, sortByEmail, sortByName, sortById, sortBySponsor }) 
   )
 }
 
-export default UsersList
+export default SponsorsList

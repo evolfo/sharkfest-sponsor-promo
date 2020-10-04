@@ -3,6 +3,7 @@ export const schema = gql`
     id: Int!
     email: String!
     name: String!
+    sponsor: String
   }
 
   type Query {
@@ -18,6 +19,7 @@ export const schema = gql`
   input UpdateUserInput {
     email: String
     name: String
+    sponsor: String
   }
 
   type Mutation {

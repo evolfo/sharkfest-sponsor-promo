@@ -2,34 +2,12 @@
   "version": "0.3.14-fixed",
   "steps": [
     {
-      "tag": "CreateSource",
-      "source": "DS"
-    },
-    {
-      "tag": "CreateArgument",
-      "location": {
-        "tag": "Source",
-        "source": "DS"
-      },
-      "argument": "provider",
-      "value": "\"sqlite\""
-    },
-    {
-      "tag": "CreateArgument",
-      "location": {
-        "tag": "Source",
-        "source": "DS"
-      },
-      "argument": "url",
-      "value": "env(\"DATABASE_URL\")"
-    },
-    {
       "tag": "CreateModel",
-      "model": "User"
+      "model": "Sponsor"
     },
     {
       "tag": "CreateField",
-      "model": "User",
+      "model": "Sponsor",
       "field": "id",
       "type": "Int",
       "arity": "Required"
@@ -39,7 +17,7 @@
       "location": {
         "path": {
           "tag": "Field",
-          "model": "User",
+          "model": "Sponsor",
           "field": "id"
         },
         "directive": "default"
@@ -51,7 +29,7 @@
         "tag": "Directive",
         "path": {
           "tag": "Field",
-          "model": "User",
+          "model": "Sponsor",
           "field": "id"
         },
         "directive": "default"
@@ -64,7 +42,7 @@
       "location": {
         "path": {
           "tag": "Field",
-          "model": "User",
+          "model": "Sponsor",
           "field": "id"
         },
         "directive": "id"
@@ -72,25 +50,7 @@
     },
     {
       "tag": "CreateField",
-      "model": "User",
-      "field": "email",
-      "type": "String",
-      "arity": "Required"
-    },
-    {
-      "tag": "CreateDirective",
-      "location": {
-        "path": {
-          "tag": "Field",
-          "model": "User",
-          "field": "email"
-        },
-        "directive": "unique"
-      }
-    },
-    {
-      "tag": "CreateField",
-      "model": "User",
+      "model": "Sponsor",
       "field": "name",
       "type": "String",
       "arity": "Required"

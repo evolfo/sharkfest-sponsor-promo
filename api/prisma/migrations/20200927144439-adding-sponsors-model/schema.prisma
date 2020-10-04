@@ -1,6 +1,6 @@
 datasource DS {
   provider = "sqlite"
-  url      = env("DATABASE_URL")
+  url = "***"
 }
 
 generator client {
@@ -12,10 +12,9 @@ generator client {
 // migrations for them.
 // TODO: Please remove the following example:
 model User {
-  id      Int       @default(autoincrement()) @id
-  email   String
-  name    String
-  sponsor String?
+  id    Int    @default(autoincrement()) @id
+  email String
+  name  String
 }
 
 model Sponsor {

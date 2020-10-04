@@ -1,6 +1,6 @@
 datasource DS {
   provider = "sqlite"
-  url      = env("DATABASE_URL")
+  url = "***"
 }
 
 generator client {
@@ -15,7 +15,7 @@ model User {
   id      Int       @default(autoincrement()) @id
   email   String
   name    String
-  sponsor String?
+  sponsorName String    @default("")
 }
 
 model Sponsor {

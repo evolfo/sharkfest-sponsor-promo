@@ -8,6 +8,7 @@ export const QUERY = gql`
       id
       email
       name
+      sponsor
     }
   }
 `
@@ -53,12 +54,19 @@ export const Success = ({ users }) => {
     forceUpdate()
   }
 
+  const sortBySponsor = () => {
+    console.timeLog(userList)
+    setUserList(userList.sort((a, b) => a.sponsor > b.sponsor))
+    forceUpdate()
+  }
+
   return (
     <Users
       users={userList}
       sortByEmail={sortByEmail}
       sortByName={sortByName}
       sortById={sortById}
+      sortBySponsor={sortBySponsor}
     />
   )
 }

@@ -46,7 +46,7 @@ const Header = () => {
           justifyContent: 'center',
         }}
       >
-        <h1>SharkFest'20 Virtual Giftbag</h1>
+        <h1>SharkFest'20 Sponsors</h1>
       </div>
       <div
         sx={{

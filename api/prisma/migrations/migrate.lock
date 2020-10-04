@@ -5,3 +5,9 @@
 
 20200510171808-create-users
 20200522152237-making-email-not-unique
+20200927144439-adding-sponsors-model
+20200930184112-sponsor
+20201003172943-removing-many-to-many-relationship
+20201003173548
+20201003174516-trying-to-fix-sponsor-naming-in-db
+20201003175006-trying-to-make-sponsor-optional

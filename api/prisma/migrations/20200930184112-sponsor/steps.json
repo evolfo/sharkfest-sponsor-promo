@@ -1,0 +1,19 @@
+{
+  "version": "0.3.14-fixed",
+  "steps": [
+    {
+      "tag": "CreateField",
+      "model": "User",
+      "field": "sponsor",
+      "type": "Sponsor",
+      "arity": "List"
+    },
+    {
+      "tag": "CreateField",
+      "model": "Sponsor",
+      "field": "user",
+      "type": "User",
+      "arity": "List"
+    }
+  ]
+}

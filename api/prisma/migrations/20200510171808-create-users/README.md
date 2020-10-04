@@ -11,8 +11,8 @@ PRAGMA foreign_keys=OFF;
 CREATE TABLE "quaint"."User" (
     "email" TEXT NOT NULL  ,
     "id" INTEGER NOT NULL  PRIMARY KEY AUTOINCREMENT,
-    "name" TEXT NOT NULL  
-) 
+    "name" TEXT NOT NULL
+)
 
 CREATE UNIQUE INDEX "quaint"."User.email" ON "User"("email")
 
