@@ -7,6 +7,10 @@ import { useState, useEffect } from 'react'
 import HomeModal from './HomeModal'
 import SponsorModal from './SponsorModal'
 
+// had to do this here because couldn't figure out how to do the equivalent
+// of .then in graphql
+let sponsorsClickedOn
+
 const UPDATE_USER_MUTATION = gql`
   mutation UpdateUserMutation($id: Int!, $input: UpdateUserInput!) {
     updateUser(id: $id, input: $input) {
@@ -16,15 +20,17 @@ const UPDATE_USER_MUTATION = gql`
   }
 `
 
-const GET_USER_QUERY = gql`
+const GET_USERS_QUERY = gql`
   query users {
     users {
       id
+      sponsor
     }
   }
 `
 
 const HomePage = () => {
+  const [firstTimeClickingOnSponsor, setFirstTimeClickingOnSponsor] = useState(true)
   const [sponsorData, setSponsorData] = useState([])
   const [selectedSponsorData, setSelectedSponsorData] = useState([])
   const [sponsorModalIsOpen, setSponsorModalIsOpen] = useState(false)
@@ -36,7 +42,7 @@ const HomePage = () => {
     data: data,
     error: getUsersError,
     loading: getUsersLoading,
-  } = useQuery(GET_USER_QUERY, {
+  } = useQuery(GET_USERS_QUERY, {
     onCompleted: () => {
       if (!error) {
         // Getting the newest user
@@ -44,14 +50,17 @@ const HomePage = () => {
       }
     },
   })
+
   const [updateUser, { loading, error }] = useMutation(UPDATE_USER_MUTATION, {
     onCompleted: (data) => {
       if (!error) {
-        console.log('success!')
+        console.log(data)
       }
     },
   })
 
+  // use effect runs when the page is loaded, similar to
+  // componentDidMount
   useEffect(() => {
     fetch('/sponsor-data.json')
       .then((resp) => resp.json())
@@ -60,6 +69,9 @@ const HomePage = () => {
       })
   }, [])
 
+  // this is opening the correct sponsor
+  // and updating the user to include
+  // the sponsor that they clicked on
   const handleSponsorModalClick = (e) => {
     let correctElement = e.target
 
@@ -74,16 +86,32 @@ const HomePage = () => {
     setSponsorModalIsOpen(true)
     setSelectedSponsorData(selectedSponsor)
 
-    console.log(selectedSponsor.title)
-    console.log(user.id, user)
-    updateUser({ variables: {
-      // not sure why I have to add 1 here,  I think I'm getting
-      // all the users before the new user is registered
-      id: user.id + 1,
-      input: {
-        sponsor: selectedSponsor.title
-      }
-    }})
+    if (firstTimeClickingOnSponsor) {
+      setFirstTimeClickingOnSponsor(false)
+      sponsorsClickedOn = selectedSponsor.title
+
+      updateUser({
+        variables: {
+          // not sure why I have to add 1 here,  I think I'm getting
+          // all the users before the new user is registered
+          id: user.id + 1,
+          input: {
+            sponsor: selectedSponsor.title,
+          },
+        },
+      })
+    } else {
+      sponsorsClickedOn = sponsorsClickedOn + ", " + selectedSponsor.title
+
+      updateUser({
+        variables: {
+          id: user.id + 1,
+          input: {
+            sponsor: sponsorsClickedOn,
+          },
+        },
+      })
+    }
   }
 
   const handleSponsorModalClose = () => {

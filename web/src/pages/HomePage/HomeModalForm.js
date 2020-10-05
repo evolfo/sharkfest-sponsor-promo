@@ -30,7 +30,6 @@ const HomeModalForm = (props) => {
   })
 
   const onSubmit = (input) => {
-    console.log(input)
     createUser({ variables: { input } })
   }
 
