@@ -7,8 +7,9 @@
   margin-top: -2rem;
 }
 
-.same-height-column {
-  display: flex !important;
+.ui.container > .ui.grid > .row > .same-height-column {
+  display: flex;
+  margin-bottom: 2rem;
 }
 
 .column > .ui.card {
@@ -24,6 +25,10 @@
 .a-sorting {
   width: 100%;
   display: contents;
+}
+
+iframe {
+  max-width: 100%;
 }
 
 /*======================*/
@@ -130,4 +135,12 @@ footer img {
   color: white;
   padding: .5rem;
   font-size: 1rem;
+}
+
+/*==================*/
+/*== SPONSOR MODAL =*/
+/*==================*/
+
+.content > .description> .sponsor-button {
+  margin-bottom: .5rem;
 }

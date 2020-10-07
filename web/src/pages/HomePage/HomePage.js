@@ -54,7 +54,7 @@ const HomePage = () => {
   const [updateUser, { loading, error }] = useMutation(UPDATE_USER_MUTATION, {
     onCompleted: (data) => {
       if (!error) {
-        console.log(data)
+
       }
     },
   })
@@ -147,35 +147,6 @@ const HomePage = () => {
     }
   })
 
-  const renderSponsorDataSmall = sponsorData.map((sponsor) => {
-    if (!sponsor.big_card) {
-      return (
-        <Grid.Column
-          id={sponsor.id}
-          key={sponsor.id}
-          className="same-height-column"
-          onClick={handleSponsorModalClick}
-        >
-          <Card>
-            <Image
-              alt="sponsor-banner"
-              src={sponsor.img_url}
-              wrapped
-              ui={false}
-            />
-            <Card.Content>
-              <Card.Header>{sponsor.title}</Card.Header>
-              <Card.Meta>
-                <span className="date">{sponsor.subtitle}</span>
-              </Card.Meta>
-              <Card.Description>{sponsor.title_description}</Card.Description>
-            </Card.Content>
-          </Card>
-        </Grid.Column>
-      )
-    }
-  })
-
   return (
     <>
       <HomeModal />
@@ -193,7 +164,6 @@ const HomePage = () => {
         <Container className="grid-container">
           <Grid stackable>
             <Grid.Row columns={2}>{renderSponsorDataBig}</Grid.Row>
-            <Grid.Row columns={3}>{renderSponsorDataSmall}</Grid.Row>
           </Grid>
         </Container>
       </div>

@@ -4,8 +4,23 @@ import { Modal, Header, Image, Button } from 'semantic-ui-react'
 class SponsorModal extends React.Component {
   render() {
     const DisplayDescription = () => {
+
       return this.props?.selectedSponsorData?.modal_description.map(
         (paragraph, index) => {
+          // TODO: Add link somewhere in the paragraph if necessary
+          // if (paragraph.includes("SharkFest competition")) {
+          //     paragraph.split(" ").map((word, index) => {
+          //       // debugger
+          //       if (word === "SharkFest" && paragraph.split(" ")[index+1] === "competition") {
+          //         paragraph = paragraph.split(" ")
+          //         paragraph[index] = `<a href='https://bit.ly/33wqwJq'>${word}</a>`
+          //         paragraph[index+1] = `<a href='https://bit.ly/33wqwJq'>${paragraph[index+1]}</a>`
+          //         paragraph = paragraph.join(" ")
+          //       }
+          //     })
+          // } else {
+
+          // }
           return <p key={index}>{paragraph}</p>
         }
       )
@@ -38,11 +53,21 @@ class SponsorModal extends React.Component {
               <DisplayDescription />
               <Button
                 primary
+                className="sponsor-button"
                 target="_blank"
                 href={this.props.selectedSponsorData.link}
               >
                 Learn More
               </Button>
+              {this.props.selectedSponsorData.title === "Endace" && (
+                <Button
+                  primary
+                  target="_blank"
+                  href="https://bit.ly/33wqwJq"
+                >
+                  SharkFest Competition
+                </Button>
+              )}
             </Modal.Description>
           </Modal.Content>
         </Modal>
