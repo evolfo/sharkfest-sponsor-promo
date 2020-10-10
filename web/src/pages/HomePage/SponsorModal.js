@@ -57,14 +57,10 @@ class SponsorModal extends React.Component {
                 target="_blank"
                 href={this.props.selectedSponsorData.link}
               >
-                Learn More
+                {this.props.selectedSponsorData.title === 'Veelong' ? 'Contact Us' : 'Learn More'}
               </Button>
-              {this.props.selectedSponsorData.title === "Endace" && (
-                <Button
-                  primary
-                  target="_blank"
-                  href="https://bit.ly/33wqwJq"
-                >
+              {this.props.selectedSponsorData.title === 'Endace' && (
+                <Button primary target="_blank" href="https://bit.ly/33wqwJq">
                   SharkFest Competition
                 </Button>
               )}

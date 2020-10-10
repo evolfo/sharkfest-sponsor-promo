@@ -33,13 +33,13 @@
   },
   {
     "id": 4,
-    "title": "Sponsor 4",
-    "subtitle": "Joined in 2018",
-    "img_url": "/sponsor-banner.jpg",
-    "title_description": "Matthew is a musician living in Nashville. Matthew is a musician.",
-    "link": "#",
-    "modal_description": ["Matthew is a musician living in Nashville. Matthew is a musician living in Nashville. Matthew is a musician living in Nashville. Matthew is a musician living in Nashville. ETC ETC"],
-    "big_card": false
+    "title": "Veelong",
+    "subtitle": "Powerful Transcend™ network protocol analytics platform",
+    "img_url": "/sponsors/Veelong.jpg",
+    "title_description": "Veelong’s network protocol analyzer transcend™ provides many unique features and seamless linkage to Wireshark, Snort and Suricata. With transcend™, you get great flexibility to customize...",
+    "link": "https://veelong.com/sharkfest20",
+    "modal_description": ["Veelong’s network protocol analyzer transcend™ provides many unique features and seamless linkage to Wireshark, Snort and Suricata. With transcend™, you get great flexibility to customize the tool to meet your special requirements. You can automate data capture, processing and report generation. You have random access to any fields visible in Wireshark and many other natively supported protocols. You can selectively extract the values of any desired fields, and you can further embed your intelligence to create custom metrics and event alerts.  You can get high-level visibility with dashboard or report view; or you can use table, time-series chart, correlation and map views for deep-dive analysis such as data flow separation, data filtering, sorting and binning with great ease. You can extract TCP/IP payload data with great ease.", "Please visit us to check out how Transcend can help you."],
+    "big_card": true
   },
   {
     "id": 5,
