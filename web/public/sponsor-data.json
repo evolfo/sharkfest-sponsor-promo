@@ -43,12 +43,15 @@
   },
   {
     "id": 5,
-    "title": "Sponsor 5",
+    "title": "G-Net Solutions",
     "subtitle": "Joined in 2019",
-    "img_url": "/sponsor-banner.jpg",
-    "title_description": "Matthew is a musician living in Nashville. Matthew is a musician ",
-    "link": "#",
-    "modal_description": ["Matthew is a musician living in Nashville. Matthew is a musician living in Nashville. Matthew is a musician living in Nashville. Matthew is a musician living in Nashville. ETC ETC"],
-    "big_card": false
+    "img_url": "/sponsors/gnet.png",
+    "video_url": "https://www.youtube-nocookie.com/embed/cbmsVZW72uo",
+    "title_description": "G-Net Solutions helps solve the challenges of Performance, Visibility and Security faced by organizations as they undertake Digital, Network and Security modernization. G-Net has built...",
+    "link": "https://www.gnet-inc.com/",
+    "modal_description": [
+      "G-Net Solutions helps solve the challenges of Performance, Visibility and Security faced by organizations as they undertake Digital, Network and Security modernization. G-Net has built relationships with some of the biggest and most progressive technology partners in the industry, working closely with them to understand how and where new technologies can be harnessed to continually optimize the IT environment for its clients. G-Net started 15 years ago when a small network of highly skilled IT experts came together to look for better ways of blending technology to create more efficient workplaces. G-Net is focused on its client’s business outcomes, from its engineers to its sales executives, it is driven by its client’s business challenges."
+    ],
+    "big_card": true
   }
 ]
