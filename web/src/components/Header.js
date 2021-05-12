@@ -60,7 +60,7 @@ const Header = () => {
             marginTop: 'headerBottomMarginFix',
           }}
         >
-          October 12 - 16
+          June 14 - 18
         </h3>
         <a
           target="_blank"
