@@ -46,7 +46,7 @@ const Header = () => {
           justifyContent: 'center',
         }}
       >
-        <h1>SharkFest'20 Sponsors</h1>
+        <h1>SharkFest'21 Virtual EUROPE Sponsors</h1>
       </div>
       <div
         sx={{
@@ -65,7 +65,7 @@ const Header = () => {
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://sharkfestvirtual.wireshark.org"
+          href="https://sharkfestus.wireshark.org"
         >
           <h3
             sx={{
@@ -83,7 +83,7 @@ const Header = () => {
           }}
         >
           Closes: &nbsp;
-          <Countdown date={new Date(2020, 9, 12)} />
+          <Countdown date={new Date(2021, 6, 14)} />
         </h3>
       </div>
     </header>

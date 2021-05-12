@@ -1,27 +1,6 @@
 [
   {
     "id": 1,
-    "title": "Gigamon",
-    "subtitle": "Why Gigamon",
-    "img_url": "/sponsors/gigamon-background.png",
-    "video_url": "https://www.youtube-nocookie.com/embed/r9rMG1-Xa5g",
-    "title_description": "Today’s IT leaders often overlook opportunities to drive business innovation found in the ones and zeros hidden in their networks. The Gigamon Visibility and Analytics Fabric™ captures...",
-    "link": "https://www.gigamon.com/campaigns/value-calculator.html",
-    "modal_description": ["Drop us a message on our Discord channel for a chance to win a $100 Amazon e-gift card.", "Today’s IT leaders often overlook opportunities to drive business innovation found in the ones and zeros hidden in their networks. The Gigamon Visibility and Analytics Fabric™ captures all network data, processes it and sends it to the tools and teams who need it. Using a single integrated platform, digital teams can choose advanced capabilities for easing network burdens, analyzing applications, and detecting and responding to threats."],
-    "big_card": true
-  },
-  {
-    "id": 2,
-    "title": "fmadio",
-    "subtitle": "",
-    "img_url": "/sponsors/fmadio.png",
-    "title_description": "FMADIO provides insane 10G 40G and 100G packet capture capabilities up to 148 Million packets per second! Yes for real! We achieve this by writing SW and HW from scratch in-house specifically...",
-    "link": "https://fmad.io",
-    "modal_description": ["FMADIO provides insane 10G 40G and 100G packet capture capabilities up to 148 Million packets per second! Yes for real! We achieve this by writing SW and HW from scratch in-house specifically for packet capture. For the more adventurous pcap connoisseur there is the black label speakeasy HW with half TB of RAM and 100 CPUs and TBs of storage to integrate all the packets with unrelenting force and mind altering cpu cycles, until they breakdown, cry, sob and finally tell you that network-is-broken-as^R^R^Ruser unplugged their desktops RJ45. Contact us for more info!"],
-    "big_card": true
-  },
-  {
-    "id": 3,
     "title": "Endace",
     "subtitle": "Why Endace?",
     "img_url": "/sponsors/endace.png",
@@ -29,29 +8,6 @@
     "title_description": "Endace’s enterprise-class EndaceProbe packet capture platforms deliver scalable, always-on packet capture across your entire network. With the ability to integrate with, and host...",
     "link": "https://bit.ly/3jLVToM",
     "modal_description": ["Endace’s enterprise-class EndaceProbe packet capture platforms deliver scalable, always-on packet capture across your entire network. With the ability to integrate with, and host, a wide range of commercial and open-source security and performance monitoring tools, EndaceProbes put the packets at your fingertips.", "Don’t forget to visit the Endace team in our Discord channel. And enter our SharkFest competition for your chance to win a cool Yeti Tundra cooler!"],
-    "big_card": true
-  },
-  {
-    "id": 4,
-    "title": "Veelong",
-    "subtitle": "Powerful Transcend™ network protocol analytics platform",
-    "img_url": "/sponsors/Veelong.jpg",
-    "title_description": "Veelong’s network protocol analyzer transcend™ provides many unique features and seamless linkage to Wireshark, Snort and Suricata. With transcend™, you get great flexibility to customize...",
-    "link": "https://veelong.com/sharkfest20",
-    "modal_description": ["Veelong’s network protocol analyzer transcend™ provides many unique features and seamless linkage to Wireshark, Snort and Suricata. With transcend™, you get great flexibility to customize the tool to meet your special requirements. You can automate data capture, processing and report generation. You have random access to any fields visible in Wireshark and many other natively supported protocols. You can selectively extract the values of any desired fields, and you can further embed your intelligence to create custom metrics and event alerts.  You can get high-level visibility with dashboard or report view; or you can use table, time-series chart, correlation and map views for deep-dive analysis such as data flow separation, data filtering, sorting and binning with great ease. You can extract TCP/IP payload data with great ease.", "Please visit us to check out how Transcend can help you."],
-    "big_card": true
-  },
-  {
-    "id": 5,
-    "title": "G-Net Solutions",
-    "subtitle": "Joined in 2019",
-    "img_url": "/sponsors/gnet.png",
-    "video_url": "https://www.youtube-nocookie.com/embed/cbmsVZW72uo",
-    "title_description": "G-Net Solutions helps solve the challenges of Performance, Visibility and Security faced by organizations as they undertake Digital, Network and Security modernization. G-Net has built...",
-    "link": "https://www.gnet-inc.com/",
-    "modal_description": [
-      "G-Net Solutions helps solve the challenges of Performance, Visibility and Security faced by organizations as they undertake Digital, Network and Security modernization. G-Net has built relationships with some of the biggest and most progressive technology partners in the industry, working closely with them to understand how and where new technologies can be harnessed to continually optimize the IT environment for its clients. G-Net started 15 years ago when a small network of highly skilled IT experts came together to look for better ways of blending technology to create more efficient workplaces. G-Net is focused on its client’s business outcomes, from its engineers to its sales executives, it is driven by its client’s business challenges."
-    ],
     "big_card": true
   }
 ]
