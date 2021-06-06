@@ -65,7 +65,7 @@ const Header = () => {
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://sharkfestus.wireshark.org"
+          href="https://sharkfesteurope.wireshark.org"
         >
           <h3
             sx={{
