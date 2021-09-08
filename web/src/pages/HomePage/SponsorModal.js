@@ -57,12 +57,25 @@ class SponsorModal extends React.Component {
                 target="_blank"
                 href={this.props.selectedSponsorData.link}
               >
-                {this.props.selectedSponsorData.title === 'Veelong' ? 'Contact Us' : 'Learn More'}
+                {this.props.selectedSponsorData.title === 'G-Net Solutions, Inc.' ? 'Visit our Website' : 'Learn More'}
               </Button>
               {this.props.selectedSponsorData.title === 'Endace' && (
-                <Button primary target="_blank" href="https://bit.ly/3ph4kfJ">
+                <Button primary target="_blank" href="https://bit.ly/3l7tXxT">
                   SharkFest Competition
                 </Button>
+              )}
+              {this.props.selectedSponsorData.title === 'G-Net Solutions, Inc.' && (
+                <>
+                  <Button primary target="_blank" href="https://gnet-inc.com/services-111320/">
+                    Services
+                  </Button>
+                  <Button primary target="_blank" href="https://gnet-inc.com/vaas-031521/">
+                    G-Net Visibility as a Service (GvaaS)
+                  </Button>
+                  <Button primary target="_blank" href="https://gnet-inc.com/gnet-sharkfest-sept2021/">
+                    G-Net Videos Packet Videos
+                  </Button>
+                </>
               )}
             </Modal.Description>
           </Modal.Content>

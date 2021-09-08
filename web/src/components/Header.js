@@ -46,7 +46,7 @@ const Header = () => {
           justifyContent: 'center',
         }}
       >
-        <h1>SharkFest'21 Virtual EUROPE Sponsors</h1>
+        <h1>SharkFest'21 Virtual US Sponsors</h1>
       </div>
       <div
         sx={{
@@ -60,12 +60,12 @@ const Header = () => {
             marginTop: 'headerBottomMarginFix',
           }}
         >
-          June 14 - 18
+          September 12 - 17
         </h3>
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://sharkfesteurope.wireshark.org"
+          href="https://sharkfestus.wireshark.org"
         >
           <h3
             sx={{
@@ -83,7 +83,7 @@ const Header = () => {
           }}
         >
           Closes: &nbsp;
-          <Countdown date={new Date(2021, 6, 14)} />
+          <Countdown date={new Date(2021, 9, 12)} />
         </h3>
       </div>
     </header>

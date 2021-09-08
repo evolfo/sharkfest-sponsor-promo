@@ -6,7 +6,7 @@
     "img_url": "/sponsors/endace.png",
     "video_url": "https://www.youtube.com/embed/zYeuQQQXUpw",
     "title_description": "Endace’s enterprise-class EndaceProbe packet capture platforms deliver scalable, always-on packet capture across your entire network. With the ability to integrate with, and host...",
-    "link": "https://bit.ly/3jLVToM",
+    "link": "https://bit.ly/3hv4tcP",
     "modal_description": ["Endace’s enterprise-class EndaceProbe packet capture platforms deliver scalable, always-on packet capture across your entire network. With the ability to integrate with, and host, a wide range of commercial and open-source security and performance monitoring tools, EndaceProbes put the packets at your fingertips.", "Don’t forget to visit the Endace team in our Discord channel. And enter our SharkFest competition for your chance to win a cool Yeti Tundra cooler!"],
     "big_card": true
   },
@@ -18,6 +18,27 @@
     "title_description": "Since 2010, SCOS has been the Certified European Training Partner of Wireshark University. As a Certified Wireshark University Training Partner, SCOS Software organizes the official TCP/IP Analysis...",
     "link": "https://www.scos.training/",
     "modal_description": ["Since 2010, SCOS has been the Certified European Training Partner of Wireshark University.", "As a Certified Wireshark University Training Partner, SCOS Software organizes the official TCP/IP Analysis and Troubleshooting Networks training. SCOS Software is the only official Wireshark University Certified Training Center in Europe to provide this training on behalf of the Wireshark Foundation. The Virtual Classroom training will be delivered by a Certified Trainer from Wireshark University USA.", "This course fulfills the needs of further developing trained and experienced network analysis professionals. Recognizing, diagnosing and providing solutions to everyday network problems is vital in today's IT world.", "Network, engineering and security staff are provided with a range of packet analysis techniques to analyze critical network protocols using Wireshark and other open-source analysis tools. Speed ​​in resolving and optimizing network performance issues is a must. While expensive network monitoring systems can alert users to a problem and in some cases indicate a general location, practical network analysis involves capturing data and discerning the critical patterns hidden in network traffic flows to identify the problem. Real-world examples are used throughout the course in conjunction with numerous hands-on exercises to provide field-proven, hands-on analysis skills.", "SCOS trainers are Wireshark University Certified Instructors, members of FBI InfraGard, the Computer Security Institute, the IEEE, and the Cyber ​​Warfare Forum Initiative. They speak regularly at regional, national and international networking and security events.", "Participants of the SharkFest ’21 Virtual EUROPE will get a 10% discount on the 2021 Courses."],
+    "big_card": true
+  },
+  {
+    "id": 3,
+    "title": "G-Net Solutions, Inc.",
+    "subtitle": "",
+    "img_url": "/sponsors/gnet.png",
+    "video_url": "https://www.youtube.com/embed/d_6cyQPiuHA",
+    "title_description": "At G-Net Solutions we proactively engage organizations and their IT managers acknowledging the visibility, security, and performance issues commonly experienced within similar IT environments...",
+    "link": "https://gnet-inc.com/",
+    "modal_description": ["At G-Net Solutions we proactively engage organizations and their IT managers acknowledging the visibility, security, and performance issues commonly experienced within similar IT environments in order to spur a deeper examination of their own IT challenges and priorities, so that we can ultimately help them increase productivity by addressing identified needs and gaps through a tailored solution. See how G-Net can help you by clicking one of the links below."],
+    "big_card": true
+  },
+  {
+    "id": 4,
+    "title": "fmadio",
+    "subtitle": "High speed packet capture without breaking the bank",
+    "img_url": "/sponsors/fmadio.png",
+    "title_description": "FMADIO’s capture appliances remove the limits, both on performance and budget. Line rate 20GbE appliances starting at under $10K US, 40GbE at under $20K US and 100GbE at under $40K...",
+    "link": "https://fmad.io/",
+    "modal_description": ["FMADIO’s capture appliances remove the limits, both on performance and budget.", "• Line rate 20GbE appliances starting at under $10K US, 40GbE at under $20K US and 100GbE at under $40K US.", "• A responsive and easy to use UI gets you to the packets you need without waiting around.", "• Integration with big data systems mean that you can see your data your own way.", "• Built-in LXC container support means that adding functionality, either from FMADIO or others, is simple and resource efficient.", "• Storage expansion modules make budgeting easier still as you can expand later if you need to.", "• A simple to use REST API and other interfaces allow for easy integration with other tools.", "• Simple filtered external packet archival simplifies compliance and long term analysis needs.", "We look forward to talking with you on the Discord channel, and don’t forget to enter the competition to win your own 20Gbps FMADIO capture appliance."],
     "big_card": true
   }
 ]
