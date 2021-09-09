@@ -11,16 +11,6 @@
     "big_card": true
   },
   {
-    "id": 2,
-    "title": "SCOS",
-    "subtitle": "SCOS.training",
-    "img_url": "/sponsors/scos.png",
-    "title_description": "Since 2010, SCOS has been the Certified European Training Partner of Wireshark University. As a Certified Wireshark University Training Partner, SCOS Software organizes the official TCP/IP Analysis...",
-    "link": "https://www.scos.training/",
-    "modal_description": ["Since 2010, SCOS has been the Certified European Training Partner of Wireshark University.", "As a Certified Wireshark University Training Partner, SCOS Software organizes the official TCP/IP Analysis and Troubleshooting Networks training. SCOS Software is the only official Wireshark University Certified Training Center in Europe to provide this training on behalf of the Wireshark Foundation. The Virtual Classroom training will be delivered by a Certified Trainer from Wireshark University USA.", "This course fulfills the needs of further developing trained and experienced network analysis professionals. Recognizing, diagnosing and providing solutions to everyday network problems is vital in today's IT world.", "Network, engineering and security staff are provided with a range of packet analysis techniques to analyze critical network protocols using Wireshark and other open-source analysis tools. Speed ​​in resolving and optimizing network performance issues is a must. While expensive network monitoring systems can alert users to a problem and in some cases indicate a general location, practical network analysis involves capturing data and discerning the critical patterns hidden in network traffic flows to identify the problem. Real-world examples are used throughout the course in conjunction with numerous hands-on exercises to provide field-proven, hands-on analysis skills.", "SCOS trainers are Wireshark University Certified Instructors, members of FBI InfraGard, the Computer Security Institute, the IEEE, and the Cyber ​​Warfare Forum Initiative. They speak regularly at regional, national and international networking and security events.", "Participants of the SharkFest ’21 Virtual EUROPE will get a 10% discount on the 2021 Courses."],
-    "big_card": true
-  },
-  {
     "id": 3,
     "title": "G-Net Solutions, Inc.",
     "subtitle": "",
