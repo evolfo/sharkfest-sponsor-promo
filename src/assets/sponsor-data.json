@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1,
+    "title": "Sysdig",
+    "subtitle": "",
+    "img_url": "/assets/sponsors/sysdig-logo.svg",
+    "video_url": "",
+    "title_description": "Sysdig is driving the standard for cloud and container security. The company pioneered cloud-native runtime threat detection and response by creating Falco and Sysdig as...",
+    "link": "https://www.sysdig.com/",
+    "modal_description": ["Sysdig is driving the standard for cloud and container security. The company pioneered cloud-native runtime threat detection and response by creating Falco and Sysdig as open source standards and key building blocks of the Sysdig platform. With the platform, teams can find and prioritize software vulnerabilities, detect and respond to threats, and manage cloud configurations, permissions and compliance. From containers and Kubernetes to cloud services, teams get a single view of risk from source to run, with no blind spots, no guesswork, no black boxes. The largest and most innovative companies around the world rely on Sysdig."],
+    "big_card": true
+  },
+  {
+    "id": 3,
+    "title": "Allegro Packets",
+    "subtitle": "Network Multimeter",
+    "img_url": "/assets/sponsors/allegro.png",
+    "video_url": "",
+    "title_description": "With great support for Wireshark packet analysis, Allegro Network Multimeter enables network firefighters to conveniently identify and extract packets of interest from both Live network traffic and...",
+    "link": "https://allegro-packets.com/en/",
+    "modal_description": ["With great support for Wireshark packet analysis, Allegro Network Multimeter enables network firefighters to conveniently identify and extract packets of interest from both Live network traffic and large pcap files. The leading-edge solutions developed by Allegro Packets, show packet-based network traffic statistics in real-time, intuitively presented according to the L2-L7 OSI structure. Network performance issues can easily be detected, by navigating the clearly structured dashboards and statistics pages. With the greatest ease, any traffic, protocol or connection can be selectively captured for last Mile analysis with Wireshark.", "The product range extends from portable, great affordable adhoc analysis appliances to 4U rack-mount solutions, from 1G to 200G. German based Allegro Packets is the global pioneer for fast network analysis. Its customers include network specialists from many organizations, including large scale Enterprises and IT/VoIP service providers, across a wide range of market sectors around the world. "],
+    "big_card": true
+  },
+  {
+    "id": 4,
+    "title": "Endace",
+    "subtitle": "",
+    "img_url": "/assets/sponsors/endace.png",
+    "title_description": "Endace’s scalable, open packet-capture platform provides network-wide packet recording at speeds of 100Gbps and beyond. With fast, centralized search, powerful data-mining and the...",
+    "link": "https://www.endace.com/",
+    "modal_description": ["Endace’s scalable, open packet-capture platform provides network-wide packet recording at speeds of 100Gbps and beyond. With fast, centralized search, powerful data-mining and the ability to integrate with, and host, security and performance monitoring solutions the open EndaceProbe platform puts definitive packet evidence right at your fingertips. Find out why Cisco, Palo Alto Networks, IBM, Splunk, Gigamon, Darktrace and many others partner with Endace to provide 100% accurate Network Recording at www.endace.com or follow Endace on Twitter, LinkedIn and YouTube."],
+    "big_card": true
+  },
+  {
+    "id": 5,
+    "title": "Profitap",
+    "subtitle": "",
+    "img_url": "/assets/sponsors/profitap.png",
+    "title_description": "Profitap develops and manufactures hard- and software solutions that drive network visibility and analytics on all traffic across physical and virtual infrastructures. These network visibility...",
+    "link": "https://www.profitap.com/",
+    "modal_description": ["Profitap develops and manufactures hard- and software solutions that drive network visibility and analytics on all traffic across physical and virtual infrastructures. These network visibility solutions are designed with the security, forensics, deep packet capture, and network & application performance monitoring sectors in mind.", "Profitap network solutions help eliminate network downtime, add security to existing and new networks worldwide, assist in lawful interception applications and reduce network complexity. Profitap’s network monitoring tools are highly performant, secure, and user-friendly. They provide complete visibility and access to your network 24/7.", "As experts in the field, Profitap products set new standards in an industry where the definition of excellence is constantly being challenged. With over 1,000 clients from 55 countries, many of which are among Fortune 500 companies, Profitap has a strong track record of trust and reliability."],
+    "big_card": true
+  },
+  {
+    "id": 6,
+    "title": "Progress",
+    "subtitle": "",
+    "img_url": "/assets/sponsors/progress.svg",
+    "title_description": "Profitap develops and manufactures hard- and software solutions that drive network visibility and analytics on all traffic across physical and virtual infrastructures. These network visibility...",
+    "link": "https://www.profitap.com/",
+    "modal_description": ["Dedicated to propelling business forward in a technology-driven world, Progress (Nasdaq: PRGS) helps businesses drive faster cycles of innovation, fuel momentum and accelerate their path to success. As the trusted provider of the best products to develop, deploy and manage high-impact applications, Progress enables customers to develop the applications and experiences they need, deploy where and how they want and manage it all safely and securely. Hundreds of thousands of enterprises, including 1,700 software companies and 3.5 million developers, depend on Progress to achieve their goals—with confidence. Learn more at www.progress.com, and follow us on LinkedIn, YouTube, Twitter, Facebook and Instagram."],
+    "big_card": true
+  }
+]

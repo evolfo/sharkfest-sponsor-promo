@@ -1,0 +1,138 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background: #FAFAFA;
+	font-family: 'Helvetica Neue', arial, sans-serif;
+	font-weight: 400;
+	color: #444;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+#app {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.grid-container {
+	padding-top: 5rem;
+  }
+  
+  .hidden-button {
+	display: none;
+	margin-top: -2rem;
+  }
+  
+  .ui.container > .ui.grid > .row > .same-height-column {
+	display: flex;
+	margin-bottom: 2rem;
+  }
+  
+  .column > .ui.card {
+	width: 100%;
+	flex: 1; /* Shrink and grow according to available height */
+	flex-basis: 0;
+  }
+  
+  .ui.card:hover {
+	transform: scale(1.05);
+  }
+  
+  .a-sorting {
+	width: 100%;
+	display: contents;
+  }
+  
+  iframe {
+	max-width: 100%;
+  }
+  
+  /*======================*/
+  /*=== HEADER STYLING ===*/
+  /*======================*/
+
+  .main-header, .main-footer {
+	background-image: linear-gradient(to bottom,rgb(0,36,72),rgb(9, 89, 169));
+	color: #fff;
+  }
+
+  .main-header div {
+	display: flex;
+	justify-content: center;
+  }
+
+  .main-header div h1 {
+	margin: 0;
+  }
+
+  .main-header div h3 {
+	padding: 0rem 1rem 0rem 1rem;
+	margin-top: .5rem;
+  }
+
+  .main-header img {
+	padding-top: 2rem; 
+	max-width: 100px;
+  }
+  
+  .main-header > div > a > h3 {
+	color: white;
+	transition: .3s;
+  }
+  
+  .main-header > div > a > h3:hover {
+	color: #9ac5f0;
+  }
+  
+  /*======================*/
+  /*=== FOOTER STYLING ===*/
+  /*======================*/
+
+  footer {
+	background-image: linear-gradient(to bottom,rgb(0,36,72),rgb(9, 89, 169));
+  }
+  
+  footer ul {
+	display: flex;
+	justify-content: center;
+	padding-left: 0;
+	padding-top: 30px;
+	margin-bottom: 0;
+	list-style-type: none;
+  }
+  
+  footer img {
+	max-width: 50px;
+  }
+  
+  .footer-text {
+	padding-top: 0 !important;
+	padding-bottom: 1rem !important;
+	font-weight: bold;
+  }
+  
+  .footer-text a {
+	color: white;
+	padding: .5rem;
+	font-size: 1rem;
+  }
+  
+  /*==================*/
+  /*== SPONSOR MODAL =*/
+  /*==================*/
+  
+  .content > .description> .sponsor-button {
+	margin-bottom: .5rem;
+  }
+  
