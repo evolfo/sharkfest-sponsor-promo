@@ -50,5 +50,25 @@
     "link": "https://www.profitap.com/",
     "modal_description": ["Dedicated to propelling business forward in a technology-driven world, Progress (Nasdaq: PRGS) helps businesses drive faster cycles of innovation, fuel momentum and accelerate their path to success. As the trusted provider of the best products to develop, deploy and manage high-impact applications, Progress enables customers to develop the applications and experiences they need, deploy where and how they want and manage it all safely and securely. Hundreds of thousands of enterprises, including 1,700 software companies and 3.5 million developers, depend on Progress to achieve their goals—with confidence. Learn more at www.progress.com, and follow us on LinkedIn, YouTube, Twitter, Facebook and Instagram."],
     "big_card": true
+  },
+  {
+    "id": 6,
+    "title": "QA Cafe",
+    "subtitle": "",
+    "img_url": "/assets/sponsors/progress.svg",
+    "title_description": "QA Cafe is a dynamic software company composed of experts in networking, consumer electronics, and security developing industry-leading network device test solutions and network analysis...",
+    "link": "https://www.qacafe.com/",
+    "modal_description": ["QA Cafe is a dynamic software company composed of experts in networking, consumer electronics, and security developing industry-leading network device test solutions and network analysis tools. Their leading products include CloudShark, a secure solution that enables network and security teams to organize, analyze, and collaborate on packet captures."],
+    "big_card": true
+  },
+  {
+    "id": 6,
+    "title": "NetworkDataPedia",
+    "subtitle": "",
+    "img_url": "/assets/sponsors/progress.svg",
+    "title_description": "With NetworkDataPedia, formerly known as LoveMyTool, network analysts can access the latest information, tips, and tricks about network monitoring, analysis, security, performance, and...",
+    "link": "https://www.networkdatapedia.com/",
+    "modal_description": ["With NetworkDataPedia, formerly known as LoveMyTool, network analysts can access the latest information, tips, and tricks about network monitoring, analysis, security, performance, and management. Our primary goal, since LoveMyTool, has been to empower network technologies to succeed in what they do. Secondly, we strive to assist businesses of all sizes in identifying issues and solutions to their technology."],
+    "big_card": true
   }
 ]
