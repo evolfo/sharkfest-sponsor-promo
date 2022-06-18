@@ -52,20 +52,20 @@
     "big_card": true
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "QA Cafe",
     "subtitle": "",
-    "img_url": "/assets/sponsors/progress.svg",
+    "img_url": "/assets/sponsors/qa-cafe.png",
     "title_description": "QA Cafe is a dynamic software company composed of experts in networking, consumer electronics, and security developing industry-leading network device test solutions and network analysis...",
     "link": "https://www.qacafe.com/",
     "modal_description": ["QA Cafe is a dynamic software company composed of experts in networking, consumer electronics, and security developing industry-leading network device test solutions and network analysis tools. Their leading products include CloudShark, a secure solution that enables network and security teams to organize, analyze, and collaborate on packet captures."],
     "big_card": true
   },
   {
-    "id": 6,
+    "id": 8,
     "title": "NetworkDataPedia",
     "subtitle": "",
-    "img_url": "/assets/sponsors/progress.svg",
+    "img_url": "/assets/sponsors/networkdatapedia.jpg",
     "title_description": "With NetworkDataPedia, formerly known as LoveMyTool, network analysts can access the latest information, tips, and tricks about network monitoring, analysis, security, performance, and...",
     "link": "https://www.networkdatapedia.com/",
     "modal_description": ["With NetworkDataPedia, formerly known as LoveMyTool, network analysts can access the latest information, tips, and tricks about network monitoring, analysis, security, performance, and management. Our primary goal, since LoveMyTool, has been to empower network technologies to succeed in what they do. Secondly, we strive to assist businesses of all sizes in identifying issues and solutions to their technology."],
