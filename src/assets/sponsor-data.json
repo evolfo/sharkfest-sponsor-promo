@@ -25,7 +25,7 @@
     "title": "Allegro Packets",
     "subtitle": "",
     "img_url": "/assets/sponsors/allegro.png",
-    "video_url": "",
+    "video_url": "https://youtu.be/qmsQWB_M1c8",
     "title_description": "With great support for Wireshark packet analysis, Allegro Network Multimeter enables network firefighters to conveniently identify and extract packets of interest from both Live network traffic and...",
     "links": [{"link": "https://allegro-packets.com/en/", "text": "Learn more"}, {"link": "https://allegro-packets.com/en/network-multimeter/overview-appliances", "text": "Appliances"}, {"link": "https://allegro-packets.com/en/contact", "text": "Get in touch"}],
     "modal_description": ["With great support for Wireshark packet analysis, Allegro Network Multimeter enables network firefighters to conveniently identify and extract packets of interest from both Live network traffic and large pcap files.", "• L2-L7 Network", "• Visibility", "• Troubleshooting & Analysis", "• 1G - 200G", "• Packet capturing", "• Pre-filter to Wireshark", "The solutions show packet-based network traffic statistics in real-time, intuitively presented according to the L2-L7 OSI structure. With the greatest ease, any traffic, protocol or connection can be selectively captured for last Mile analysis with Wireshark.", "• Clearly structured dashboards", "• Easy detection of Network performance issues", "• Convenient extraction of the desired traffic", "• Export to Wireshark", "Win a portable Allegro 500M: As part of SharkFest, you have the chance to win a portable Allegro 500M. Find out more about the challenge and what you have to do to win the prize."],
