@@ -1,8 +1,11 @@
 import { Modal, Header, Image, Button } from 'semantic-ui-react'
 
 const SponsorModal = ({ sponsorModalIsOpen, selectedSponsorData, handleSponsorModalClose }) => {
-    const DisplayDescription = () => {
+    if (selectedSponsorData.length === 0) return
 
+    console.log(selectedSponsorData)
+
+    const DisplayDescription = () => {
       return selectedSponsorData?.modal_description.map(
         (paragraph, index) => {
           return <p key={index}>{paragraph}</p>
@@ -37,14 +40,27 @@ const SponsorModal = ({ sponsorModalIsOpen, selectedSponsorData, handleSponsorMo
             <Modal.Description>
               <Header>{selectedSponsorData.subtitle}</Header>
               <DisplayDescription />
-              <Button
-                primary
-                className="sponsor-button"
-                target="_blank"
-                href={selectedSponsorData.link}
-              >
-                Learn More
-              </Button>
+              {selectedSponsorData?.links.length === 1 ? 
+                <Button
+                  primary
+                  className="sponsor-button"
+                  target="_blank"
+                  href={selectedSponsorData.link}
+                >
+                  Learn More
+                </Button>
+              : selectedSponsorData?.links?.map((link) => (
+                <Button
+                  key={link.text}
+                  primary
+                  className="sponsor-button"
+                  target="_blank"
+                  href={link.link}
+                >
+                  {link.text}
+                </Button>
+              ))
+              }
               {selectedSponsorData.title === 'Endace' && (
                 <Button primary target="_blank" href="https://bit.ly/3l7tXxT">
                   SharkFest Competition
