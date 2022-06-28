@@ -23,6 +23,7 @@ const SponsorModal = ({ sponsorModalIsOpen, selectedSponsorData, handleSponsorMo
         >
           {displayVideo ? (
             <Image
+              className="sponsor-modal-image"
               alt="sponsor-banner"
               src={selectedSponsorData.img_url}
             />
@@ -45,7 +46,7 @@ const SponsorModal = ({ sponsorModalIsOpen, selectedSponsorData, handleSponsorMo
                   primary
                   className="sponsor-button"
                   target="_blank"
-                  href={selectedSponsorData.link}
+                  href={selectedSponsorData.links[0]}
                 >
                   Learn More
                 </Button>

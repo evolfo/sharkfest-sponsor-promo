@@ -135,4 +135,8 @@ a {
   .content > .description> .sponsor-button {
 	margin-bottom: .5rem;
   }
+
+  .sponsor-modal-image {
+	margin: 0 auto;
+  }
   

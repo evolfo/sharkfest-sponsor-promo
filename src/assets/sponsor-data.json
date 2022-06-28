@@ -3,10 +3,9 @@
     "id": 1,
     "title": "Sysdig",
     "subtitle": "",
-    "img_url": "/assets/sponsors/sysdig-logo.svg",
-    "video_url": "https://www.youtube.com/watch?v=bCVXixymPcc",
+    "img_url": "/assets/sponsors/sysdig.png",
     "title_description": "Sysdig is driving the standard for cloud and container security. The company pioneered cloud-native runtime threat detection and response by creating Falco and Sysdig as...",
-    "links": ["https://www.sysdig.com/"],
+    "links": ["https://dig.sysdig.com/c/watch-9?x=v9fdMx"],
     "modal_description": ["Sysdig is driving the standard for cloud and container security. The company pioneered cloud-native runtime threat detection and response by creating Falco and Sysdig as open source standards and key building blocks of the Sysdig platform. With the platform, teams can find and prioritize software vulnerabilities, detect and respond to threats, and manage cloud configurations, permissions and compliance. From containers and Kubernetes to cloud services, teams get a single view of risk from source to run, with no blind spots, no guesswork, no black boxes. The largest and most innovative companies around the world rely on Sysdig."],
     "big_card": true
   },
