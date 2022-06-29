@@ -21,13 +21,13 @@
   },
   {
     "id": 3,
-    "title": "Allegro Packets",
+    "title": "Allegro Network Multimeter As A Companion To Wireshark",
     "subtitle": "",
     "img_url": "/assets/sponsors/allegro.png",
-    "video_url": "https://youtu.be/qmsQWB_M1c8",
+    "video_url": "https://www.youtube.com/embed/qmsQWB_M1c8",
     "title_description": "With great support for Wireshark packet analysis, Allegro Network Multimeter enables network firefighters to conveniently identify and extract packets of interest from both Live network traffic and...",
     "links": [{"link": "https://allegro-packets.com/en/", "text": "Learn more"}, {"link": "https://allegro-packets.com/en/network-multimeter/overview-appliances", "text": "Appliances"}, {"link": "https://allegro-packets.com/en/contact", "text": "Get in touch"}],
-    "modal_description": ["With great support for Wireshark packet analysis, Allegro Network Multimeter enables network firefighters to conveniently identify and extract packets of interest from both Live network traffic and large pcap files.", "• L2-L7 Network", "• Visibility", "• Troubleshooting & Analysis", "• 1G - 200G", "• Packet capturing", "• Pre-filter to Wireshark", "The solutions show packet-based network traffic statistics in real-time, intuitively presented according to the L2-L7 OSI structure. With the greatest ease, any traffic, protocol or connection can be selectively captured for last Mile analysis with Wireshark.", "• Clearly structured dashboards", "• Easy detection of Network performance issues", "• Convenient extraction of the desired traffic", "• Export to Wireshark", "Win a portable Allegro 500M: As part of SharkFest, you have the chance to win a portable Allegro 500M. Find out more about the challenge and what you have to do to win the prize."],
+    "modal_description": ["With great support for Wireshark packet analysis, Allegro Network Multimeter enables network firefighters to conveniently identify and extract packets of interest from both Live network traffic and large pcap files.", "• L2-L7 Network", "• Visibility", "• Troubleshooting & Analysis", "• 1G - 200G", "• Packet capturing", "• Pre-filter to Wireshark", "How the Allegro appliances ideally complements Wireshark", "The solutions show packet-based network traffic statistics in real-time, intuitively presented according to the L2-L7 OSI structure. With the greatest ease, any traffic, protocol or connection can be selectively captured for last Mile analysis with Wireshark.", "• Clearly structured dashboards", "• Easy detection of Network performance issues", "• Convenient extraction of the desired traffic", "• Export to Wireshark", "Win a portable Allegro 500M", "Win a portable Allegro 500M: As part of SharkFest, you have the chance to win a portable Allegro 500M. Find out more about the challenge and what you have to do to win the prize."],
     "big_card": true
   },
   {
@@ -35,7 +35,7 @@
     "title": "Profitap",
     "subtitle": "",
     "img_url": "/assets/sponsors/profitap.png",
-    "video_url": "https://youtu.be/SqOsVI_ZdVI",
+    "video_url": "https://www.youtube.com/embed/SqOsVI_ZdVI",
     "title_description": "Profitap develops and manufactures hard- and software solutions that drive network visibility and analytics on all traffic across physical and virtual infrastructures. These network visibility...",
     "links": ["https://www.profitap.com/"],
     "modal_description": ["Profitap develops and manufactures hard- and software solutions that drive network visibility and analytics on all traffic across physical and virtual infrastructures. These network visibility solutions are designed with the security, forensics, deep packet capture, and network & application performance monitoring sectors in mind.", "Profitap network solutions help eliminate network downtime, add security to existing and new networks all over the world, assist in lawful interception applications and reduce network complexity. All of Profitap’s network monitoring tools are highly performant, secure and user-friendly, and provide complete visibility and access to your network, 24/7.", "As experts in the field, Profitap products set new standards in an industry where the definition of excellence is constantly being challenged. With more than 1,000 clients from 55 countries, Profitap has become a must-have partner, many of which are among Fortune 500 companies."],
