@@ -3,8 +3,6 @@ import { Modal, Header, Image, Button } from 'semantic-ui-react'
 const SponsorModal = ({ sponsorModalIsOpen, selectedSponsorData, handleSponsorModalClose }) => {
     if (selectedSponsorData.length === 0) return
 
-    console.log(selectedSponsorData)
-
     const DisplayDescription = () => {
       return selectedSponsorData?.modal_description.map(
         (paragraph, index) => {
@@ -13,7 +11,7 @@ const SponsorModal = ({ sponsorModalIsOpen, selectedSponsorData, handleSponsorMo
       )
     }
 
-    const displayVideo = selectedSponsorData.video_url !== undefined || selectedSponsorData.video_url !== ""
+    const displayVideo = selectedSponsorData.video_url !== undefined
 
     return (
       <>
