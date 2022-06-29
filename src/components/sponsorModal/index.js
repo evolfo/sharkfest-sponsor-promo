@@ -21,7 +21,7 @@ const SponsorModal = ({ sponsorModalIsOpen, selectedSponsorData, handleSponsorMo
           onClose={handleSponsorModalClose}
           open={sponsorModalIsOpen}
         >
-          {displayVideo ? (
+          {!displayVideo ? (
             <Image
               className="sponsor-modal-image"
               alt="sponsor-banner"
