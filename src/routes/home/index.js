@@ -59,11 +59,11 @@ const Home = () => {
               ui={false}
             />
             <Card.Content>
-              <Card.Header>{sponsor.title}</Card.Header>
+              <Card.Header>{sponsor.id !== 3 && sponsor.title}</Card.Header>
               <Card.Meta>
                 <span className="date">{sponsor.subtitle}</span>
               </Card.Meta>
-              <Card.Description>{sponsor.title_description}</Card.Description>
+              <Card.Description>{!!sponsor.title_description && sponsor.title_description}</Card.Description>
             </Card.Content>
           </Card>
         </Grid.Column>

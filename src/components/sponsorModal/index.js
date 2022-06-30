@@ -34,7 +34,7 @@ const SponsorModal = ({ sponsorModalIsOpen, selectedSponsorData, handleSponsorMo
               allowFullScreen
             />
           )}
-          <Modal.Header>{selectedSponsorData.title}</Modal.Header>
+          <Modal.Header>{!!selectedSponsorData.title && selectedSponsorData.title}</Modal.Header>
           <Modal.Content>
             <Modal.Description>
               <Header>{selectedSponsorData.subtitle}</Header>
@@ -60,12 +60,12 @@ const SponsorModal = ({ sponsorModalIsOpen, selectedSponsorData, handleSponsorMo
                 </Button>
               ))
               }
-              {selectedSponsorData.title === 'Endace' && (
+              {selectedSponsorData?.title === 'Endace' && (
                 <Button primary target="_blank" href="https://bit.ly/3l7tXxT">
                   SharkFest Competition
                 </Button>
               )}
-              {selectedSponsorData.title === 'G-Net Solutions, Inc.' && (
+              {selectedSponsorData?.title === 'G-Net Solutions, Inc.' && (
                 <>
                   <Button primary target="_blank" href="https://gnet-inc.com/services-111320/">
                     Services
