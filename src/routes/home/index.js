@@ -42,6 +42,13 @@ const Home = () => {
     setSponsorModalIsOpen(false)
   }
 
+  const renderTitleDescription = (title_description) => {
+    console.log(title_description)
+    return title_description.map((sentence, idx) => (
+      <p key={idx}>{sentence}</p>
+    ))
+  }
+
   const renderSponsorDataBig = sponsorData.map((sponsor) => {
     if (sponsor.big_card) {
       return (
@@ -63,7 +70,7 @@ const Home = () => {
               <Card.Meta>
                 <span className="date">{sponsor.subtitle}</span>
               </Card.Meta>
-              <Card.Description>{!!sponsor.title_description && sponsor.title_description}</Card.Description>
+              <Card.Description>{!!sponsor.title_description && renderTitleDescription(sponsor.title_description)}</Card.Description>
             </Card.Content>
           </Card>
         </Grid.Column>

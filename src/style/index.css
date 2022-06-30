@@ -38,6 +38,10 @@ a {
 	display: flex;
 	margin-bottom: 2rem;
   }
+
+  .same-height-column:hover {
+	cursor: pointer;
+  }
   
   .column > .ui.card {
 	width: 100%;
