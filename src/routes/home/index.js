@@ -59,7 +59,7 @@ const Home = () => {
               ui={false}
             />
             <Card.Content>
-              <Card.Header>{sponsor.id !== 3 && sponsor.title}</Card.Header>
+              <Card.Header>{sponsor.id !== 3 || sponsor.id !== 4 && sponsor.title}</Card.Header>
               <Card.Meta>
                 <span className="date">{sponsor.subtitle}</span>
               </Card.Meta>
