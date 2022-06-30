@@ -43,7 +43,6 @@ const Home = () => {
   }
 
   const renderTitleDescription = (title_description) => {
-    console.log(title_description)
     return title_description.map((sentence, idx) => (
       <p key={idx}>{sentence}</p>
     ))
