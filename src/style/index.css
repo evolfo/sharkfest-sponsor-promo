@@ -39,6 +39,10 @@ a {
 	margin-bottom: 2rem;
   }
 
+  .ui.container > .ui.grid > .row > .same-height-column button {
+	margin-top: .5rem;
+  }
+
   .same-height-column:hover {
 	cursor: pointer;
   }

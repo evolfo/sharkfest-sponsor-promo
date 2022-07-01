@@ -1,6 +1,6 @@
 import { h } from 'preact';
 
-import { Grid, Image, Container, Card } from 'semantic-ui-react'
+import { Grid, Image, Container, Card, Button } from 'semantic-ui-react'
 import { useState, useEffect } from 'react'
 
 import SponsorModal from '../../components/sponsorModal'
@@ -70,6 +70,7 @@ const Home = () => {
                 <span className="date">{sponsor.subtitle}</span>
               </Card.Meta>
               <Card.Description>{!!sponsor.title_description && renderTitleDescription(sponsor.title_description)}</Card.Description>
+              <Button primary onClick={handleSponsorModalClick} className="sponsor-button">Learn More</Button>
             </Card.Content>
           </Card>
         </Grid.Column>
