@@ -40,7 +40,7 @@ a {
   }
 
   .ui.container > .ui.grid > .row > .same-height-column button {
-	margin-top: .5rem;
+	margin-top: auto;
   }
 
   .same-height-column:hover {
@@ -140,8 +140,17 @@ a {
   /*== SPONSOR MODAL =*/
   /*==================*/
   
+  .content > .description {
+	margin-bottom: 1rem;
+  }
+
   .content > .description> .sponsor-button {
 	margin-bottom: .5rem;
+  }
+
+  .content {
+	display: flex;
+	flex-direction: column;
   }
 
   .sponsor-modal-image {
