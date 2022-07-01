@@ -26,7 +26,7 @@
     "subtitle": "",
     "img_url": "/assets/sponsors/allegro.png",
     "video_url": "https://www.youtube.com/embed/qmsQWB_M1c8",
-    "links": [{"link": "https://allegro-packets.com/en/", "text": "Learn more"}, {"link": "https://allegro-packets.com/en/events/sharkfest-challenge", "text": "SharkFest Challenge"} {"link": "https://allegro-packets.com/en/network-multimeter/overview-appliances", "text": "Appliances"}, {"link": "https://allegro-packets.com/en/contact", "text": "Get in touch"}],
+    "links": [{"link": "https://allegro-packets.com/en/", "text": "Learn more"}, {"link": "https://allegro-packets.com/en/events/sharkfest-challenge", "text": "SharkFest Challenge"}, {"link": "https://allegro-packets.com/en/network-multimeter/overview-appliances", "text": "Appliances"}, {"link": "https://allegro-packets.com/en/contact", "text": "Get in touch"}],
     "modal_description": ["With great support for Wireshark packet analysis, Allegro Network Multimeter enables network firefighters to conveniently identify and extract packets of interest from both Live network traffic and large pcap files.", "• L2-L7 Network", "• Visibility", "• Troubleshooting & Analysis", "• 1G - 200G", "• Packet capturing", "• Pre-filter to Wireshark", "How the Allegro appliances ideally complements Wireshark", "The solutions show packet-based network traffic statistics in real-time, intuitively presented according to the L2-L7 OSI structure. With the greatest ease, any traffic, protocol or connection can be selectively captured for last Mile analysis with Wireshark.", "• Clearly structured dashboards", "• Easy detection of Network performance issues", "• Convenient extraction of the desired traffic", "• Export to Wireshark", "Win a portable Allegro 500M", "Win a portable Allegro 500M: As part of SharkFest, you have the chance to win a portable Allegro 500M. Find out more about the challenge and what you have to do to win the prize."],
     "big_card": true
   },
@@ -45,10 +45,10 @@
     "id": 6,
     "title": "Progress",
     "subtitle": "",
-    "img_url": "/assets/sponsors/progress.svg",
-    "title_description": ["Profitap develops and manufactures hard- and software solutions that drive network visibility and analytics on all traffic across physical and virtual infrastructures. These network visibility..."],
+    "img_url": "/assets/sponsors/progress.jpg",
+    "title_description": ["Progress is a global software company whose mission is to provide the best products to develop, deploy and manage high-impact business applications.  Progress Flowmon is a solution..."],
     "links": ["https://www.flowmon.com/en"],
-    "modal_description": ["Dedicated to propelling business forward in a technology-driven world, Progress (Nasdaq: PRGS) helps businesses drive faster cycles of innovation, fuel momentum and accelerate their path to success. As the trusted provider of the best products to develop, deploy and manage high-impact applications, Progress enables customers to develop the applications and experiences they need, deploy where and how they want and manage it all safely and securely. Hundreds of thousands of enterprises, including 1,700 software companies and 3.5 million developers, depend on Progress to achieve their goals—with confidence. Learn more at www.progress.com, and follow us on LinkedIn, YouTube, Twitter, Facebook and Instagram."],
+    "modal_description": ["Progress is a global software company whose mission is to provide the best products to develop deploy and manage high-impact business applications. Progress Flowmon is a solution that can monitor hybrid cloud-based networks and applications via a machine learning based expert system that can discover, analyze, and provide remediation advice using industry-standard frameworks such as the Mitre ATT&amp;CK Framework. By capturing and analyzing various types of network traffic and telemetry information organizations have on their network."],
     "big_card": true
   }
 ]
