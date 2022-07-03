@@ -9,6 +9,10 @@ const SponsorModal = ({
 
   const DisplayDescription = () => {
     return selectedSponsorData?.modal_description.map((paragraph, index) => {
+      if (selectedSponsorData.id === 3 && index === 7 || index === 14) {
+        return <p style={{ color: "red" }}><b>{paragraph}</b></p>
+      }
+
       return <p key={index}>{paragraph}</p>;
     });
   };
