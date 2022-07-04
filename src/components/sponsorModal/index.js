@@ -9,8 +9,15 @@ const SponsorModal = ({
 
   const DisplayDescription = () => {
     return selectedSponsorData?.modal_description.map((paragraph, index) => {
-      if (selectedSponsorData.id === 3 && index === 7 || index === 13) {
-        return <p style={{ color: "red" }}><b>{paragraph}</b></p>
+      if (selectedSponsorData.id === 3 && index === 7) {
+        return (<p style={{ color: "red" }}><b>{paragraph}</b></p>)
+      }
+      else if (index === 13) {
+        return (
+          <a href="https://allegro-packets.com/en/events/sharkfest-challenge" target="_blank" rel="noreferrer noopenner">
+            <p style={{ color: "red" }}><b>{paragraph}</b></p>
+          </a>
+        )
       }
 
       return <p key={index}>{paragraph}</p>;
