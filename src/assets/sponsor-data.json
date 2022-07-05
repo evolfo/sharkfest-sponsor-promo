@@ -1,26 +1,5 @@
 [
   {
-    "id": 1,
-    "title": "Sysdig",
-    "subtitle": "",
-    "img_url": "/assets/sponsors/sysdig.png",
-    "title_description": ["Sysdig is driving the standard for cloud and container security. The company pioneered cloud-native runtime threat detection and response by creating Falco and Sysdig as..."],
-    "links": ["https://dig.sysdig.com/c/watch-9?x=v9fdMx"],
-    "modal_description": ["Sysdig is driving the standard for cloud and container security. The company pioneered cloud-native runtime threat detection and response by creating Falco and Sysdig as open source standards and key building blocks of the Sysdig platform. With the platform, teams can find and prioritize software vulnerabilities, detect and respond to threats, and manage cloud configurations, permissions and compliance. From containers and Kubernetes to cloud services, teams get a single view of risk from source to run, with no blind spots, no guesswork, no black boxes. The largest and most innovative companies around the world rely on Sysdig."],
-    "big_card": true
-  },
-  {
-    "id": 5,
-    "title": "Profitap",
-    "subtitle": "",
-    "img_url": "/assets/sponsors/profitap.png",
-    "video_url": "https://www.youtube.com/embed/SqOsVI_ZdVI",
-    "title_description": ["Profitap develops and manufactures hard- and software solutions that drive network visibility and analytics on all traffic across physical and virtual infrastructures. These network visibility..."],
-    "links": ["https://www.profitap.com/"],
-    "modal_description": ["Profitap develops and manufactures hard- and software solutions that drive network visibility and analytics on all traffic across physical and virtual infrastructures. These network visibility solutions are designed with the security, forensics, deep packet capture, and network & application performance monitoring sectors in mind.", "Profitap network solutions help eliminate network downtime, add security to existing and new networks all over the world, assist in lawful interception applications and reduce network complexity. All of Profitap’s network monitoring tools are highly performant, secure and user-friendly, and provide complete visibility and access to your network, 24/7.", "As experts in the field, Profitap products set new standards in an industry where the definition of excellence is constantly being challenged. With more than 1,000 clients from 55 countries, Profitap has become a must-have partner, many of which are among Fortune 500 companies."],
-    "big_card": true
-  },
-  {
     "id": 3,
     "title": "Allegro Network Multimeter As A Companion To Wireshark",
     "subtitle": "",
@@ -42,6 +21,17 @@
     "big_card": true
   },
   {
+    "id": 5,
+    "title": "Profitap",
+    "subtitle": "",
+    "img_url": "/assets/sponsors/profitap.png",
+    "video_url": "https://www.youtube.com/embed/SqOsVI_ZdVI",
+    "title_description": ["Profitap develops and manufactures hard- and software solutions that drive network visibility and analytics on all traffic across physical and virtual infrastructures. These network visibility..."],
+    "links": ["https://www.profitap.com/"],
+    "modal_description": ["Profitap develops and manufactures hard- and software solutions that drive network visibility and analytics on all traffic across physical and virtual infrastructures. These network visibility solutions are designed with the security, forensics, deep packet capture, and network & application performance monitoring sectors in mind.", "Profitap network solutions help eliminate network downtime, add security to existing and new networks all over the world, assist in lawful interception applications and reduce network complexity. All of Profitap’s network monitoring tools are highly performant, secure and user-friendly, and provide complete visibility and access to your network, 24/7.", "As experts in the field, Profitap products set new standards in an industry where the definition of excellence is constantly being challenged. With more than 1,000 clients from 55 countries, Profitap has become a must-have partner, many of which are among Fortune 500 companies."],
+    "big_card": true
+  },
+  {
     "id": 6,
     "title": "Progress",
     "subtitle": "Progress Flowmon: Simplify Network &amp; Security Operations with a Single Solution",
@@ -49,6 +39,16 @@
     "title_description": ["Progress is a global software company whose mission is to provide the best products to develop, deploy and manage high-impact business applications.  Progress Flowmon is a solution..."],
     "links": ["https://www.flowmon.com/en"],
     "modal_description": ["Progress is a global software company whose mission is to provide the best products to develop deploy and manage high-impact business applications. Progress Flowmon is a solution that can monitor hybrid cloud-based networks and applications via a machine learning based expert system that can discover, analyze, and provide remediation advice using industry-standard frameworks such as the Mitre ATT&amp;CK Framework. By capturing and analyzing various types of network traffic and telemetry information organizations have on their network."],
+    "big_card": true
+  },
+  {
+    "id": 1,
+    "title": "Sysdig",
+    "subtitle": "",
+    "img_url": "/assets/sponsors/sysdig.png",
+    "title_description": ["Sysdig is driving the standard for cloud and container security. The company pioneered cloud-native runtime threat detection and response by creating Falco and Sysdig as..."],
+    "links": ["https://dig.sysdig.com/c/watch-9?x=v9fdMx"],
+    "modal_description": ["Sysdig is driving the standard for cloud and container security. The company pioneered cloud-native runtime threat detection and response by creating Falco and Sysdig as open source standards and key building blocks of the Sysdig platform. With the platform, teams can find and prioritize software vulnerabilities, detect and respond to threats, and manage cloud configurations, permissions and compliance. From containers and Kubernetes to cloud services, teams get a single view of risk from source to run, with no blind spots, no guesswork, no black boxes. The largest and most innovative companies around the world rely on Sysdig."],
     "big_card": true
   }
 ]
