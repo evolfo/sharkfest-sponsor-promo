@@ -32,16 +32,6 @@
     "big_card": true
   },
   {
-    "id": 6,
-    "title": "Progress",
-    "subtitle": "Progress Flowmon: Simplify Network &amp; Security Operations with a Single Solution",
-    "img_url": "/assets/sponsors/progress.jpg",
-    "title_description": ["Progress is a global software company whose mission is to provide the best products to develop, deploy and manage high-impact business applications.  Progress Flowmon is a solution..."],
-    "links": ["https://www.flowmon.com/en"],
-    "modal_description": ["Progress is a global software company whose mission is to provide the best products to develop deploy and manage high-impact business applications. Progress Flowmon is a solution that can monitor hybrid cloud-based networks and applications via a machine learning based expert system that can discover, analyze, and provide remediation advice using industry-standard frameworks such as the Mitre ATT&amp;CK Framework. By capturing and analyzing various types of network traffic and telemetry information organizations have on their network."],
-    "big_card": true
-  },
-  {
     "id": 1,
     "title": "Sysdig",
     "subtitle": "",
