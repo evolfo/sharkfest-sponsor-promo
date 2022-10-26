@@ -5,7 +5,8 @@
     "subtitle": "",
     "img_url": "/assets/sponsors/allegro.png",
     "video_url": "https://www.youtube.com/embed/qmsQWB_M1c8",
-    "links": [{"link": "https://allegro-packets.com/en/", "text": "Learn more"}, {"link": "https://allegro-packets.com/en/events/sharkfest-challenge", "text": "SharkFest Challenge to win an Allegro 500-M"}, {"link": "https://allegro-packets.com/en/network-multimeter/overview-appliances", "text": "Appliances"}, {"link": "https://allegro-packets.com/en/contact", "text": "Get in touch"}],
+    "links": [{"link": "https://allegro-packets.com/en/", "text": "Learn more"}, {"link": "https://allegro-packets.com/en/events/sharkfest-challenge", "text": "SharkFest Challenge to win an Allegro 500-M"}, {"link": "https://allegro-packets.com/en/network-multimeter/overview-appliances", "text": "Appliances"}, {"link": "https://allegro-packets.com/en/contact", "text": "Get in touch"}, {"link": "https://twitter.com/Allegro_Packets", "text": "Follow on Twitter"}],
+    "title_description": ["With great support for Wireshark packet analysis, Allegro Network Multimeter enables network firefighters to conveniently identify and extract packets of interest from both Live network traffic and large pcap files..."],
     "modal_description": ["With great support for Wireshark packet analysis, Allegro Network Multimeter enables network firefighters to conveniently identify and extract packets of interest from both Live network traffic and large pcap files.", "• L2-L7 Network", "• Visibility", "• Troubleshooting & Analysis", "• 1G - 200G", "• Packet capturing", "• Pre-filter to Wireshark", "How the Allegro appliances ideally complements Wireshark", "The solutions show packet-based network traffic statistics in real-time, intuitively presented according to the L2-L7 OSI structure. With the greatest ease, any traffic, protocol or connection can be selectively captured for last Mile analysis with Wireshark.", "• Clearly structured dashboards", "• Easy detection of Network performance issues", "• Convenient extraction of the desired traffic", "• Export to Wireshark", "Win a portable Allegro 500-M", "Win a portable Allegro 500-M: As part of SharkFest, you have the chance to win a portable Allegro 500-M. Find out more about the challenge and what you have to do to win the prize."],
     "big_card": true
   },
@@ -39,6 +40,17 @@
     "title_description": ["Sysdig is driving the standard for cloud and container security. The company pioneered cloud-native runtime threat detection and response by creating Falco and Sysdig..."],
     "links": ["https://dig.sysdig.com/c/watch-9?x=v9fdMx"],
     "modal_description": ["Sysdig is driving the standard for cloud and container security. The company pioneered cloud-native runtime threat detection and response by creating Falco and Sysdig Open Source as open source standards and key building blocks of the Sysdig platform. With the platform, teams can find and prioritize software vulnerabilities, detect and respond to threats, and manage cloud configurations, permissions, and compliance. From containers and Kubernetes to cloud services, teams get a single view of risk from source to run, with no blind spots, no guesswork, no wasted time. The largest and most innovative companies around the world rely on Sysdig."],
+    "big_card": true
+  },
+  {
+    "id": 10,
+    "title": "SCOS",
+    "subtitle": "",
+    "img_url": "/assets/sponsors/scos.png",
+    "video_url": "https://www.youtube.com/embed/yg3-nRhvda0",
+    "title_description": ["SCOS Software is a leading Benelux supplier of Network and Cloud monitoring and management tools; specializing in Secure Managed File Transfer solutions for medium-sized..."],
+    "links": ["https://scos.training/"],
+    "modal_description": ["SCOS Software is a leading Benelux supplier of Network and Cloud monitoring and management tools; specializing in Secure Managed File Transfer solutions for medium-sized to large enterprises. In addition, SCOS also supplies professional training and support for Network solutions, including Network and Forensics Analysis capabilities. Since 2010, SCOS has been the Authorized European Training Partner of Wireshark University."],
     "big_card": true
   }
 ]
