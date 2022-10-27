@@ -13,16 +13,16 @@ const Header = () => {
         </a>
       </div>
       <div>
-        <h1>SharkFest'22 US Sponsors</h1>
+        <h1>SharkFest'22 EUROPE Sponsors</h1>
       </div>
       <div>
         <h3>
-          July 9-14, Kansas City, MO
+          31 Oct - 4 Nov, Estoril, Portugal
         </h3>
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://sharkfestus.wireshark.org"
+          href="https://sharkfesteurope.wireshark.org"
         >
           <h3>
             Event Website
