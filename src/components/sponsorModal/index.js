@@ -51,19 +51,6 @@ const SponsorModal = ({
           <Modal.Description>
             <Header>{selectedSponsorData.subtitle}</Header>
             <DisplayDescription />
-            {selectedSponsorData.title === "Endace" && (
-              <a
-                href="https://www2.endace.com/sharkfest-register-2022"
-                rel="noopenner noreferrer"
-                target="_blank"
-              >
-                <Image
-                  className="sponsor-modal-image"
-                  alt="sponsor-banner"
-                  src="/assets/sponsors/endace-competition.png"
-                />
-              </a>
-            )}
             {selectedSponsorData?.links.length === 1 ? (
               <Button
                 primary
@@ -85,15 +72,6 @@ const SponsorModal = ({
                   {link.text}
                 </Button>
               ))
-            )}
-            {selectedSponsorData?.title === "Endace" && (
-              <Button
-                primary
-                target="_blank"
-                href="https://www2.endace.com/sharkfest-register-2022"
-              >
-                SharkFest Competition
-              </Button>
             )}
             {selectedSponsorData?.title === "G-Net Solutions, Inc." && (
               <>
